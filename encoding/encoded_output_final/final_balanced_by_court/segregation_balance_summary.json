@@ -1,0 +1,30 @@
+{
+    "before_counts": {
+        "SupremeCourt": 228600,
+        "HighCourt": 232978,
+        "TribunalCourt": 35246,
+        "DailyOrderCourt": 16420,
+        "DistrictCourt": 13297
+    },
+    "unknown_total": 35779,
+    "redistribution_plan": {
+        "DistrictCourt": 10000,
+        "TribunalCourt": 10000,
+        "DailyOrderCourt": 15779
+    },
+    "after_counts": {
+        "SupremeCourt": 228600,
+        "HighCourt": 232978,
+        "TribunalCourt": 35246,
+        "DailyOrderCourt": 16420,
+        "DistrictCourt": 13297,
+        "Unknown_unused": 0
+    },
+    "label_mapping": {
+        "SupremeCourt": 0,
+        "HighCourt": 1,
+        "DistrictCourt": 2,
+        "TribunalCourt": 3,
+        "DailyOrderCourt": 4
+    }
+}
