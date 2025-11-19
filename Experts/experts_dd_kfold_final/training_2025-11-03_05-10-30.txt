@@ -1,0 +1,167 @@
+
+=================== Fine-tune Run: 2025-11-03 05:10:30.062283 ===================
+
+🚀 District Expert — 3-Fold Fine-Tune CV
+district[F1] Ep01|loss=0.4431|acc=0.5423|f1=0.4022
+district[F1] Ep02|loss=0.3892|acc=0.5396|f1=0.4224
+district[F1] Ep03|loss=0.3611|acc=0.5332|f1=0.4422
+district[F1] Ep04|loss=0.3474|acc=0.5259|f1=0.4616
+district[F1] Ep05|loss=0.3352|acc=0.5105|f1=0.4713
+district[F1] Ep06|loss=0.3365|acc=0.4986|f1=0.4793
+district[F1] Ep07|loss=0.3365|acc=0.5032|f1=0.4884
+district[F1] Ep08|loss=0.3508|acc=0.5050|f1=0.4909
+district[F1] Ep09|loss=0.3401|acc=0.5050|f1=0.4927
+district[F1] Ep10|loss=0.3250|acc=0.4895|f1=0.4895
+district[F1] Ep11|loss=0.3308|acc=0.4995|f1=0.4976
+district[F1] Ep12|loss=0.3289|acc=0.4968|f1=0.4954
+district[F1] Ep13|loss=0.3323|acc=0.4986|f1=0.4978
+district[F1] Ep14|loss=0.3430|acc=0.5005|f1=0.5000
+district[F1] Ep15|loss=0.3371|acc=0.4995|f1=0.4994
+district[F1] Ep16|loss=0.3316|acc=0.5023|f1=0.5022
+district[F1] Ep17|loss=0.3239|acc=0.5077|f1=0.5056
+district[F1] Ep18|loss=0.3310|acc=0.5086|f1=0.5071
+district[F1] Ep19|loss=0.3335|acc=0.5077|f1=0.5064
+district[F1] Ep20|loss=0.3188|acc=0.5086|f1=0.5070
+district[F1] Ep21|loss=0.3307|acc=0.5068|f1=0.5068
+district[F1] Ep22|loss=0.3463|acc=0.5141|f1=0.5116
+district[F1] Ep23|loss=0.3724|acc=0.5059|f1=0.5057
+district[F1] Ep24|loss=0.3388|acc=0.5068|f1=0.5061
+district[F1] Ep25|loss=0.3416|acc=0.5096|f1=0.5085
+district[F1] Ep26|loss=0.3562|acc=0.5068|f1=0.5068
+district[F1] Ep27|loss=0.3340|acc=0.5077|f1=0.5073
+district[F1] Ep28|loss=0.3293|acc=0.5068|f1=0.5049
+district[F1] Ep29|loss=0.3469|acc=0.5023|f1=0.5021
+district[F1] Ep30|loss=0.3592|acc=0.5041|f1=0.5021
+⏹️ Early stop district[F1] at Ep30
+SWA skip district[F1]: 'dict' object has no attribute 'to'
+🏁 district[F1] Best Ep22|Acc=0.5141|F1=0.5116
+district[F2] Ep01|loss=0.4007|acc=0.5005|f1=0.4950
+district[F2] Ep02|loss=0.3869|acc=0.4941|f1=0.4931
+district[F2] Ep03|loss=0.3625|acc=0.4959|f1=0.4959
+district[F2] Ep04|loss=0.3159|acc=0.5005|f1=0.5004
+district[F2] Ep05|loss=0.3512|acc=0.5050|f1=0.5034
+district[F2] Ep06|loss=0.3243|acc=0.5041|f1=0.5039
+district[F2] Ep07|loss=0.3206|acc=0.5123|f1=0.5088
+district[F2] Ep08|loss=0.3380|acc=0.5150|f1=0.5070
+district[F2] Ep09|loss=0.3253|acc=0.5223|f1=0.5165
+district[F2] Ep10|loss=0.3346|acc=0.5132|f1=0.5090
+district[F2] Ep11|loss=0.3222|acc=0.5241|f1=0.5135
+district[F2] Ep12|loss=0.3353|acc=0.5296|f1=0.5204
+district[F2] Ep13|loss=0.3417|acc=0.5287|f1=0.5203
+district[F2] Ep14|loss=0.3463|acc=0.5214|f1=0.5131
+district[F2] Ep15|loss=0.3127|acc=0.5341|f1=0.5152
+district[F2] Ep16|loss=0.3138|acc=0.5259|f1=0.5179
+district[F2] Ep17|loss=0.3375|acc=0.5232|f1=0.5159
+district[F2] Ep18|loss=0.3119|acc=0.5278|f1=0.5200
+district[F2] Ep19|loss=0.3354|acc=0.5350|f1=0.5288
+district[F2] Ep20|loss=0.3320|acc=0.5305|f1=0.5256
+district[F2] Ep21|loss=0.3341|acc=0.5296|f1=0.5258
+district[F2] Ep22|loss=0.3204|acc=0.5387|f1=0.5282
+district[F2] Ep23|loss=0.3380|acc=0.5378|f1=0.5274
+district[F2] Ep24|loss=0.3538|acc=0.5369|f1=0.5278
+district[F2] Ep25|loss=0.3363|acc=0.5332|f1=0.5255
+district[F2] Ep26|loss=0.3371|acc=0.5314|f1=0.5249
+district[F2] Ep27|loss=0.3374|acc=0.5305|f1=0.5260
+⏹️ Early stop district[F2] at Ep27
+SWA skip district[F2]: 'dict' object has no attribute 'to'
+🏁 district[F2] Best Ep19|Acc=0.5350|F1=0.5288
+district[F3] Ep01|loss=0.4079|acc=0.5187|f1=0.5150
+district[F3] Ep02|loss=0.3572|acc=0.5214|f1=0.5184
+district[F3] Ep03|loss=0.3298|acc=0.5214|f1=0.5194
+district[F3] Ep04|loss=0.3114|acc=0.5278|f1=0.5204
+district[F3] Ep05|loss=0.3241|acc=0.5214|f1=0.5161
+district[F3] Ep06|loss=0.3281|acc=0.5214|f1=0.5168
+district[F3] Ep07|loss=0.3152|acc=0.5359|f1=0.5113
+district[F3] Ep08|loss=0.3149|acc=0.5341|f1=0.5114
+district[F3] Ep09|loss=0.3331|acc=0.5296|f1=0.5092
+district[F3] Ep10|loss=0.3045|acc=0.5278|f1=0.5080
+district[F3] Ep11|loss=0.3169|acc=0.5086|f1=0.5086
+district[F3] Ep12|loss=0.3003|acc=0.5123|f1=0.5095
+⏹️ Early stop district[F3] at Ep12
+SWA skip district[F3]: 'dict' object has no attribute 'to'
+🏁 district[F3] Best Ep4|Acc=0.5278|F1=0.5204
+✅ district | MeanAcc=0.5256 | MeanF1=0.5203
+
+🚀 Daily Expert — 3-Fold Fine-Tune CV
+daily[F1] Ep01|loss=0.3153|acc=0.5278|f1=0.4790
+daily[F1] Ep02|loss=0.2734|acc=0.5197|f1=0.4842
+daily[F1] Ep03|loss=0.2624|acc=0.5096|f1=0.4848
+daily[F1] Ep04|loss=0.2557|acc=0.5401|f1=0.4897
+daily[F1] Ep05|loss=0.2533|acc=0.5412|f1=0.4917
+daily[F1] Ep06|loss=0.2477|acc=0.4681|f1=0.4681
+daily[F1] Ep07|loss=0.2446|acc=0.4473|f1=0.4431
+daily[F1] Ep08|loss=0.2430|acc=0.4308|f1=0.4161
+daily[F1] Ep09|loss=0.2408|acc=0.4705|f1=0.4705
+daily[F1] Ep10|loss=0.2387|acc=0.5141|f1=0.5004
+daily[F1] Ep11|loss=0.2362|acc=0.5044|f1=0.4969
+daily[F1] Ep12|loss=0.2330|acc=0.5895|f1=0.4945
+daily[F1] Ep13|loss=0.2370|acc=0.5629|f1=0.5167
+daily[F1] Ep14|loss=0.2361|acc=0.5627|f1=0.5159
+daily[F1] Ep15|loss=0.2300|acc=0.5072|f1=0.5009
+daily[F1] Ep16|loss=0.2299|acc=0.5597|f1=0.5179
+daily[F1] Ep17|loss=0.2304|acc=0.5251|f1=0.5109
+daily[F1] Ep18|loss=0.2250|acc=0.4948|f1=0.4922
+daily[F1] Ep19|loss=0.2214|acc=0.6046|f1=0.4936
+daily[F1] Ep20|loss=0.2218|acc=0.5586|f1=0.5216
+daily[F1] Ep21|loss=0.2185|acc=0.5797|f1=0.5187
+daily[F1] Ep22|loss=0.2215|acc=0.5886|f1=0.5097
+daily[F1] Ep23|loss=0.2180|acc=0.5213|f1=0.5105
+daily[F1] Ep24|loss=0.2222|acc=0.5002|f1=0.4983
+daily[F1] Ep25|loss=0.2165|acc=0.5620|f1=0.5238
+daily[F1] Ep26|loss=0.2160|acc=0.5488|f1=0.5255
+daily[F1] Ep27|loss=0.2169|acc=0.5805|f1=0.5199
+daily[F1] Ep28|loss=0.2183|acc=0.5582|f1=0.5266
+daily[F1] Ep29|loss=0.2161|acc=0.5959|f1=0.5100
+daily[F1] Ep30|loss=0.2168|acc=0.5661|f1=0.5259
+daily[F1] Ep31|loss=0.2146|acc=0.4972|f1=0.4971
+daily[F1] Ep32|loss=0.2124|acc=0.5979|f1=0.5114
+daily[F1] Ep33|loss=0.2158|acc=0.6026|f1=0.5063
+daily[F1] Ep34|loss=0.2151|acc=0.4985|f1=0.4984
+daily[F1] Ep35|loss=0.2153|acc=0.5072|f1=0.5070
+daily[F1] Ep36|loss=0.2116|acc=0.5269|f1=0.5242
+⏹️ Early stop daily[F1] at Ep36
+SWA skip daily[F1]: 'dict' object has no attribute 'to'
+🏁 daily[F1] Best Ep28|Acc=0.5582|F1=0.5266
+daily[F2] Ep01|loss=0.3289|acc=0.5652|f1=0.5175
+daily[F2] Ep02|loss=0.2828|acc=0.5484|f1=0.5165
+daily[F2] Ep03|loss=0.2656|acc=0.5488|f1=0.5172
+daily[F2] Ep04|loss=0.2530|acc=0.5396|f1=0.5161
+daily[F2] Ep05|loss=0.2548|acc=0.4967|f1=0.4951
+daily[F2] Ep06|loss=0.2471|acc=0.3724|f1=0.2792
+daily[F2] Ep07|loss=0.2433|acc=0.3708|f1=0.2754
+daily[F2] Ep08|loss=0.2381|acc=0.3676|f1=0.2688
+daily[F2] Ep09|loss=0.2381|acc=0.3676|f1=0.2688
+⏹️ Early stop daily[F2] at Ep9
+SWA skip daily[F2]: 'dict' object has no attribute 'to'
+🏁 daily[F2] Best Ep1|Acc=0.5652|F1=0.5175
+daily[F3] Ep01|loss=0.4207|acc=0.5686|f1=0.4727
+daily[F3] Ep02|loss=0.3326|acc=0.6297|f1=0.3963
+daily[F3] Ep03|loss=0.2951|acc=0.6319|f1=0.3900
+daily[F3] Ep04|loss=0.2778|acc=0.6323|f1=0.3905
+daily[F3] Ep05|loss=0.2618|acc=0.6320|f1=0.4019
+daily[F3] Ep06|loss=0.2569|acc=0.6147|f1=0.4601
+daily[F3] Ep07|loss=0.2535|acc=0.5694|f1=0.5059
+daily[F3] Ep08|loss=0.2479|acc=0.5679|f1=0.5129
+daily[F3] Ep09|loss=0.2445|acc=0.5568|f1=0.5248
+daily[F3] Ep10|loss=0.2422|acc=0.6230|f1=0.4769
+daily[F3] Ep11|loss=0.2373|acc=0.5736|f1=0.5398
+daily[F3] Ep12|loss=0.2361|acc=0.5988|f1=0.5412
+daily[F3] Ep13|loss=0.2359|acc=0.5504|f1=0.5355
+daily[F3] Ep14|loss=0.2354|acc=0.5764|f1=0.5414
+daily[F3] Ep15|loss=0.2334|acc=0.6365|f1=0.5262
+daily[F3] Ep16|loss=0.2270|acc=0.5320|f1=0.5250
+daily[F3] Ep17|loss=0.2262|acc=0.5768|f1=0.5434
+daily[F3] Ep18|loss=0.2251|acc=0.5357|f1=0.5254
+daily[F3] Ep19|loss=0.2266|acc=0.5998|f1=0.5412
+daily[F3] Ep20|loss=0.2240|acc=0.6071|f1=0.5322
+daily[F3] Ep21|loss=0.2235|acc=0.5650|f1=0.5333
+daily[F3] Ep22|loss=0.2209|acc=0.5498|f1=0.5278
+daily[F3] Ep23|loss=0.2209|acc=0.5943|f1=0.5380
+daily[F3] Ep24|loss=0.2213|acc=0.5658|f1=0.5335
+daily[F3] Ep25|loss=0.2167|acc=0.5969|f1=0.5342
+⏹️ Early stop daily[F3] at Ep25
+SWA skip daily[F3]: 'dict' object has no attribute 'to'
+🏁 daily[F3] Best Ep17|Acc=0.5768|F1=0.5434
+✅ daily | MeanAcc=0.5667 | MeanF1=0.5292
+
+🎯 Fine-tuning complete. Results saved.

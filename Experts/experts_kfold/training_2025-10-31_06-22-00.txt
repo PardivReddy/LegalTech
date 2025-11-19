@@ -1,0 +1,487 @@
+
+=================== Run: 2025-10-31 06:22:00.639239 ===================
+
+🚀 Expert Supreme — 3-Fold Stratified CV
+Supreme[fold 1] ✅ Using 2 GPUs
+Supreme[F1] Ep01 | loss=0.4356 | acc=0.5275 | f1=0.5116 | prec=0.5116 | rec=0.5116 | mcc=0.0232 | thr=0.59
+Supreme[F1] Ep02 | loss=0.3951 | acc=0.5433 | f1=0.5113 | prec=0.5153 | rec=0.5141 | mcc=0.0294 | thr=0.55
+Supreme[F1] Ep03 | loss=0.3820 | acc=0.5495 | f1=0.5305 | prec=0.5311 | rec=0.5305 | mcc=0.0616 | thr=0.52
+Supreme[F1] Ep04 | loss=0.3739 | acc=0.5310 | f1=0.5300 | prec=0.5390 | rec=0.5400 | mcc=0.0790 | thr=0.51
+Supreme[F1] Ep05 | loss=0.3684 | acc=0.5630 | f1=0.5359 | prec=0.5396 | rec=0.5371 | mcc=0.0766 | thr=0.52
+Supreme[F1] Ep06 | loss=0.3626 | acc=0.5554 | f1=0.5481 | prec=0.5489 | rec=0.5502 | mcc=0.0992 | thr=0.52
+Supreme[F1] Ep07 | loss=0.3599 | acc=0.5554 | f1=0.5508 | prec=0.5532 | rec=0.5549 | mcc=0.1080 | thr=0.52
+Supreme[F1] Ep08 | loss=0.3571 | acc=0.5653 | f1=0.5544 | prec=0.5543 | rec=0.5550 | mcc=0.1093 | thr=0.53
+Supreme[F1] Ep09 | loss=0.3538 | acc=0.5654 | f1=0.5572 | prec=0.5575 | rec=0.5589 | mcc=0.1164 | thr=0.53
+Supreme[F1] Ep10 | loss=0.3510 | acc=0.5734 | f1=0.5608 | prec=0.5606 | rec=0.5610 | mcc=0.1216 | thr=0.54
+Supreme[F1] Ep11 | loss=0.3492 | acc=0.5754 | f1=0.5640 | prec=0.5639 | rec=0.5645 | mcc=0.1284 | thr=0.54
+Supreme[F1] Ep12 | loss=0.3484 | acc=0.5758 | f1=0.5673 | prec=0.5674 | rec=0.5688 | mcc=0.1362 | thr=0.54
+Supreme[F1] Ep13 | loss=0.3456 | acc=0.5790 | f1=0.5688 | prec=0.5686 | rec=0.5696 | mcc=0.1382 | thr=0.54
+Supreme[F1] Ep14 | loss=0.3441 | acc=0.5791 | f1=0.5707 | prec=0.5708 | rec=0.5724 | mcc=0.1432 | thr=0.54
+Supreme[F1] Ep15 | loss=0.3420 | acc=0.5832 | f1=0.5728 | prec=0.5725 | rec=0.5735 | mcc=0.1461 | thr=0.54
+Supreme[F1] Ep16 | loss=0.3403 | acc=0.5847 | f1=0.5743 | prec=0.5741 | rec=0.5751 | mcc=0.1492 | thr=0.54
+Supreme[F1] Ep17 | loss=0.3396 | acc=0.5827 | f1=0.5743 | prec=0.5743 | rec=0.5758 | mcc=0.1501 | thr=0.54
+Supreme[F1] Ep18 | loss=0.3374 | acc=0.5860 | f1=0.5772 | prec=0.5771 | rec=0.5787 | mcc=0.1558 | thr=0.54
+Supreme[F1] Ep19 | loss=0.3353 | acc=0.5848 | f1=0.5772 | prec=0.5774 | rec=0.5793 | mcc=0.1568 | thr=0.54
+Supreme[F1] Ep20 | loss=0.3339 | acc=0.5866 | f1=0.5778 | prec=0.5777 | rec=0.5793 | mcc=0.1570 | thr=0.54
+Supreme[F1] Ep21 | loss=0.3343 | acc=0.5856 | f1=0.5779 | prec=0.5781 | rec=0.5800 | mcc=0.1580 | thr=0.54
+Supreme[F1] Ep22 | loss=0.3319 | acc=0.5870 | f1=0.5792 | prec=0.5793 | rec=0.5811 | mcc=0.1603 | thr=0.54
+Supreme[F1] Ep23 | loss=0.3327 | acc=0.5875 | f1=0.5796 | prec=0.5797 | rec=0.5815 | mcc=0.1611 | thr=0.54
+Supreme[F1] Ep24 | loss=0.3302 | acc=0.5866 | f1=0.5798 | prec=0.5802 | rec=0.5823 | mcc=0.1626 | thr=0.54
+Supreme[F1] Ep25 | loss=0.3290 | acc=0.5873 | f1=0.5799 | prec=0.5802 | rec=0.5822 | mcc=0.1623 | thr=0.54
+Supreme[F1] Ep26 | loss=0.3289 | acc=0.5925 | f1=0.5800 | prec=0.5799 | rec=0.5801 | mcc=0.1600 | thr=0.55
+Supreme[F1] Ep27 | loss=0.3298 | acc=0.5927 | f1=0.5808 | prec=0.5806 | rec=0.5811 | mcc=0.1616 | thr=0.55
+Supreme[F1] Ep28 | loss=0.3294 | acc=0.5918 | f1=0.5805 | prec=0.5802 | rec=0.5809 | mcc=0.1611 | thr=0.55
+Supreme[F1] Ep29 | loss=0.3281 | acc=0.5918 | f1=0.5804 | prec=0.5802 | rec=0.5808 | mcc=0.1610 | thr=0.55
+Supreme[F1] Ep30 | loss=0.3279 | acc=0.5921 | f1=0.5806 | prec=0.5803 | rec=0.5810 | mcc=0.1613 | thr=0.55
+⚠️  SWA eval skipped for supreme[F1]: 'dict' object has no attribute 'to'
+🏁 Supreme[F1] Best Ep27 | Acc=0.5927 | F1=0.5808
+Supreme[fold 2] ✅ Using 2 GPUs
+Supreme[F2] Ep01 | loss=0.4353 | acc=0.5162 | f1=0.5018 | prec=0.5018 | rec=0.5018 | mcc=0.0036 | thr=0.38
+Supreme[F2] Ep02 | loss=0.3943 | acc=0.5054 | f1=0.5037 | prec=0.5107 | rec=0.5110 | mcc=0.0217 | thr=0.46
+Supreme[F2] Ep03 | loss=0.3810 | acc=0.5533 | f1=0.5115 | prec=0.5206 | rec=0.5177 | mcc=0.0382 | thr=0.46
+Supreme[F2] Ep04 | loss=0.3717 | acc=0.5505 | f1=0.5208 | prec=0.5246 | rec=0.5228 | mcc=0.0473 | thr=0.48
+Supreme[F2] Ep05 | loss=0.3667 | acc=0.5473 | f1=0.5417 | prec=0.5435 | rec=0.5448 | mcc=0.0883 | thr=0.49
+Supreme[F2] Ep06 | loss=0.3628 | acc=0.5711 | f1=0.5470 | prec=0.5499 | rec=0.5474 | mcc=0.0973 | thr=0.51
+Supreme[F2] Ep07 | loss=0.3585 | acc=0.5696 | f1=0.5504 | prec=0.5515 | rec=0.5503 | mcc=0.1018 | thr=0.52
+Supreme[F2] Ep08 | loss=0.3564 | acc=0.5673 | f1=0.5548 | prec=0.5547 | rec=0.5551 | mcc=0.1098 | thr=0.52
+Supreme[F2] Ep09 | loss=0.3535 | acc=0.5717 | f1=0.5598 | prec=0.5596 | rec=0.5602 | mcc=0.1198 | thr=0.52
+Supreme[F2] Ep10 | loss=0.3498 | acc=0.5687 | f1=0.5602 | prec=0.5604 | rec=0.5617 | mcc=0.1220 | thr=0.52
+Supreme[F2] Ep11 | loss=0.3482 | acc=0.5710 | f1=0.5632 | prec=0.5635 | rec=0.5651 | mcc=0.1286 | thr=0.52
+Supreme[F2] Ep12 | loss=0.3463 | acc=0.5755 | f1=0.5625 | prec=0.5624 | rec=0.5626 | mcc=0.1250 | thr=0.53
+Supreme[F2] Ep13 | loss=0.3446 | acc=0.5751 | f1=0.5655 | prec=0.5654 | rec=0.5666 | mcc=0.1320 | thr=0.53
+Supreme[F2] Ep14 | loss=0.3429 | acc=0.5762 | f1=0.5674 | prec=0.5674 | rec=0.5688 | mcc=0.1362 | thr=0.53
+Supreme[F2] Ep15 | loss=0.3408 | acc=0.5798 | f1=0.5705 | prec=0.5704 | rec=0.5717 | mcc=0.1420 | thr=0.53
+Supreme[F2] Ep16 | loss=0.3396 | acc=0.5814 | f1=0.5715 | prec=0.5713 | rec=0.5724 | mcc=0.1437 | thr=0.53
+Supreme[F2] Ep17 | loss=0.3384 | acc=0.5846 | f1=0.5730 | prec=0.5728 | rec=0.5735 | mcc=0.1463 | thr=0.53
+Supreme[F2] Ep18 | loss=0.3366 | acc=0.5802 | f1=0.5738 | prec=0.5745 | rec=0.5766 | mcc=0.1511 | thr=0.52
+Supreme[F2] Ep19 | loss=0.3343 | acc=0.5885 | f1=0.5748 | prec=0.5748 | rec=0.5747 | mcc=0.1495 | thr=0.53
+Supreme[F2] Ep20 | loss=0.3333 | acc=0.5842 | f1=0.5762 | prec=0.5762 | rec=0.5779 | mcc=0.1542 | thr=0.52
+Supreme[F2] Ep21 | loss=0.3322 | acc=0.5862 | f1=0.5763 | prec=0.5761 | rec=0.5772 | mcc=0.1533 | thr=0.52
+Supreme[F2] Ep22 | loss=0.3314 | acc=0.5856 | f1=0.5757 | prec=0.5755 | rec=0.5767 | mcc=0.1522 | thr=0.52
+Supreme[F2] Ep23 | loss=0.3297 | acc=0.5859 | f1=0.5767 | prec=0.5765 | rec=0.5779 | mcc=0.1544 | thr=0.52
+Supreme[F2] Ep24 | loss=0.3304 | acc=0.5850 | f1=0.5759 | prec=0.5757 | rec=0.5771 | mcc=0.1529 | thr=0.52
+Supreme[F2] Ep25 | loss=0.3286 | acc=0.5851 | f1=0.5758 | prec=0.5756 | rec=0.5770 | mcc=0.1526 | thr=0.52
+Supreme[F2] Ep26 | loss=0.3290 | acc=0.5855 | f1=0.5767 | prec=0.5766 | rec=0.5782 | mcc=0.1548 | thr=0.52
+Supreme[F2] Ep27 | loss=0.3275 | acc=0.5864 | f1=0.5770 | prec=0.5768 | rec=0.5781 | mcc=0.1549 | thr=0.52
+Supreme[F2] Ep28 | loss=0.3276 | acc=0.5876 | f1=0.5777 | prec=0.5775 | rec=0.5787 | mcc=0.1562 | thr=0.52
+Supreme[F2] Ep29 | loss=0.3273 | acc=0.5877 | f1=0.5779 | prec=0.5776 | rec=0.5789 | mcc=0.1565 | thr=0.52
+Supreme[F2] Ep30 | loss=0.3281 | acc=0.5875 | f1=0.5777 | prec=0.5775 | rec=0.5787 | mcc=0.1562 | thr=0.52
+⚠️  SWA eval skipped for supreme[F2]: 'dict' object has no attribute 'to'
+🏁 Supreme[F2] Best Ep29 | Acc=0.5877 | F1=0.5779
+Supreme[fold 3] ✅ Using 2 GPUs
+Supreme[F3] Ep01 | loss=0.4393 | acc=0.5316 | f1=0.5070 | prec=0.5083 | rec=0.5079 | mcc=0.0162 | thr=0.49
+Supreme[F3] Ep02 | loss=0.3950 | acc=0.5302 | f1=0.5129 | prec=0.5130 | rec=0.5129 | mcc=0.0258 | thr=0.54
+Supreme[F3] Ep03 | loss=0.3816 | acc=0.5155 | f1=0.5100 | prec=0.5125 | rec=0.5129 | mcc=0.0253 | thr=0.53
+Supreme[F3] Ep04 | loss=0.3745 | acc=0.5612 | f1=0.5291 | prec=0.5347 | rec=0.5316 | mcc=0.0662 | thr=0.52
+Supreme[F3] Ep05 | loss=0.3670 | acc=0.5472 | f1=0.5437 | prec=0.5474 | rec=0.5489 | mcc=0.0963 | thr=0.51
+Supreme[F3] Ep06 | loss=0.3637 | acc=0.5665 | f1=0.5450 | prec=0.5467 | rec=0.5451 | mcc=0.0918 | thr=0.52
+Supreme[F3] Ep07 | loss=0.3590 | acc=0.5635 | f1=0.5518 | prec=0.5517 | rec=0.5522 | mcc=0.1038 | thr=0.53
+Supreme[F3] Ep08 | loss=0.3564 | acc=0.5697 | f1=0.5539 | prec=0.5542 | rec=0.5537 | mcc=0.1079 | thr=0.53
+Supreme[F3] Ep09 | loss=0.3526 | acc=0.5737 | f1=0.5596 | prec=0.5596 | rec=0.5595 | mcc=0.1191 | thr=0.54
+Supreme[F3] Ep10 | loss=0.3499 | acc=0.5727 | f1=0.5620 | prec=0.5619 | rec=0.5627 | mcc=0.1245 | thr=0.54
+Supreme[F3] Ep11 | loss=0.3501 | acc=0.5749 | f1=0.5652 | prec=0.5651 | rec=0.5663 | mcc=0.1314 | thr=0.54
+Supreme[F3] Ep12 | loss=0.3472 | acc=0.5774 | f1=0.5672 | prec=0.5670 | rec=0.5680 | mcc=0.1350 | thr=0.54
+Supreme[F3] Ep13 | loss=0.3461 | acc=0.5785 | f1=0.5678 | prec=0.5676 | rec=0.5684 | mcc=0.1360 | thr=0.54
+Supreme[F3] Ep14 | loss=0.3436 | acc=0.5809 | f1=0.5702 | prec=0.5700 | rec=0.5709 | mcc=0.1408 | thr=0.54
+Supreme[F3] Ep15 | loss=0.3417 | acc=0.5811 | f1=0.5712 | prec=0.5710 | rec=0.5721 | mcc=0.1431 | thr=0.54
+Supreme[F3] Ep16 | loss=0.3403 | acc=0.5835 | f1=0.5717 | prec=0.5715 | rec=0.5721 | mcc=0.1436 | thr=0.54
+Supreme[F3] Ep17 | loss=0.3378 | acc=0.5818 | f1=0.5733 | prec=0.5733 | rec=0.5749 | mcc=0.1482 | thr=0.54
+Supreme[F3] Ep18 | loss=0.3368 | acc=0.5847 | f1=0.5745 | prec=0.5743 | rec=0.5753 | mcc=0.1496 | thr=0.54
+Supreme[F3] Ep19 | loss=0.3348 | acc=0.5837 | f1=0.5747 | prec=0.5746 | rec=0.5760 | mcc=0.1507 | thr=0.54
+Supreme[F3] Ep20 | loss=0.3330 | acc=0.5891 | f1=0.5777 | prec=0.5775 | rec=0.5782 | mcc=0.1557 | thr=0.54
+Supreme[F3] Ep21 | loss=0.3334 | acc=0.5869 | f1=0.5766 | prec=0.5763 | rec=0.5774 | mcc=0.1537 | thr=0.54
+Supreme[F3] Ep22 | loss=0.3305 | acc=0.5826 | f1=0.5774 | prec=0.5788 | rec=0.5812 | mcc=0.1600 | thr=0.53
+Supreme[F3] Ep23 | loss=0.3291 | acc=0.5886 | f1=0.5786 | prec=0.5783 | rec=0.5795 | mcc=0.1578 | thr=0.54
+Supreme[F3] Ep24 | loss=0.3292 | acc=0.5891 | f1=0.5787 | prec=0.5784 | rec=0.5795 | mcc=0.1579 | thr=0.54
+Supreme[F3] Ep25 | loss=0.3296 | acc=0.5896 | f1=0.5803 | prec=0.5800 | rec=0.5814 | mcc=0.1615 | thr=0.54
+Supreme[F3] Ep26 | loss=0.3278 | acc=0.5885 | f1=0.5798 | prec=0.5796 | rec=0.5812 | mcc=0.1608 | thr=0.54
+Supreme[F3] Ep27 | loss=0.3275 | acc=0.5902 | f1=0.5799 | prec=0.5796 | rec=0.5807 | mcc=0.1604 | thr=0.54
+Supreme[F3] Ep28 | loss=0.3279 | acc=0.5897 | f1=0.5799 | prec=0.5797 | rec=0.5809 | mcc=0.1606 | thr=0.54
+Supreme[F3] Ep29 | loss=0.3290 | acc=0.5904 | f1=0.5806 | prec=0.5803 | rec=0.5815 | mcc=0.1618 | thr=0.54
+Supreme[F3] Ep30 | loss=0.3266 | acc=0.5904 | f1=0.5804 | prec=0.5802 | rec=0.5814 | mcc=0.1615 | thr=0.54
+⚠️  SWA eval skipped for supreme[F3]: 'dict' object has no attribute 'to'
+🏁 Supreme[F3] Best Ep29 | Acc=0.5904 | F1=0.5806
+✅ Supreme | Mean Acc=0.5902±0.0020 | Mean F1=0.5797±0.0013
+
+🚀 Expert High — 3-Fold Stratified CV
+High[fold 1] ✅ Using 2 GPUs
+High[F1] Ep01 | loss=0.3445 | acc=0.5177 | f1=0.4970 | prec=0.5023 | rec=0.5021 | mcc=0.0044 | thr=0.37
+High[F1] Ep02 | loss=0.3044 | acc=0.5387 | f1=0.5297 | prec=0.5306 | rec=0.5300 | mcc=0.0607 | thr=0.36
+High[F1] Ep03 | loss=0.2904 | acc=0.5852 | f1=0.5779 | prec=0.5790 | rec=0.5778 | mcc=0.1568 | thr=0.40
+High[F1] Ep04 | loss=0.2833 | acc=0.5982 | f1=0.5949 | prec=0.5948 | rec=0.5952 | mcc=0.1900 | thr=0.42
+High[F1] Ep05 | loss=0.2777 | acc=0.6055 | f1=0.6030 | prec=0.6029 | rec=0.6037 | mcc=0.2067 | thr=0.42
+High[F1] Ep06 | loss=0.2737 | acc=0.6173 | f1=0.6103 | prec=0.6118 | rec=0.6100 | mcc=0.2218 | thr=0.43
+High[F1] Ep07 | loss=0.2716 | acc=0.6188 | f1=0.6168 | prec=0.6168 | rec=0.6179 | mcc=0.2347 | thr=0.43
+High[F1] Ep08 | loss=0.2676 | acc=0.6268 | f1=0.6220 | prec=0.6223 | rec=0.6217 | mcc=0.2440 | thr=0.45
+High[F1] Ep09 | loss=0.2667 | acc=0.6314 | f1=0.6245 | prec=0.6263 | rec=0.6240 | mcc=0.2503 | thr=0.46
+High[F1] Ep10 | loss=0.2657 | acc=0.6290 | f1=0.6276 | prec=0.6281 | rec=0.6294 | mcc=0.2574 | thr=0.45
+High[F1] Ep11 | loss=0.2622 | acc=0.6353 | f1=0.6306 | prec=0.6310 | rec=0.6304 | mcc=0.2614 | thr=0.46
+High[F1] Ep12 | loss=0.2606 | acc=0.6387 | f1=0.6343 | prec=0.6345 | rec=0.6342 | mcc=0.2687 | thr=0.46
+High[F1] Ep13 | loss=0.2586 | acc=0.6395 | f1=0.6366 | prec=0.6364 | rec=0.6371 | mcc=0.2735 | thr=0.46
+High[F1] Ep14 | loss=0.2562 | acc=0.6455 | f1=0.6395 | prec=0.6408 | rec=0.6390 | mcc=0.2798 | thr=0.47
+High[F1] Ep15 | loss=0.2542 | acc=0.6458 | f1=0.6414 | prec=0.6417 | rec=0.6411 | mcc=0.2828 | thr=0.47
+High[F1] Ep16 | loss=0.2532 | acc=0.6435 | f1=0.6414 | prec=0.6413 | rec=0.6425 | mcc=0.2837 | thr=0.46
+High[F1] Ep17 | loss=0.2513 | acc=0.6484 | f1=0.6432 | prec=0.6440 | rec=0.6428 | mcc=0.2867 | thr=0.47
+High[F1] Ep18 | loss=0.2490 | acc=0.6457 | f1=0.6439 | prec=0.6439 | rec=0.6452 | mcc=0.2891 | thr=0.46
+High[F1] Ep19 | loss=0.2472 | acc=0.6498 | f1=0.6458 | prec=0.6459 | rec=0.6458 | mcc=0.2917 | thr=0.47
+High[F1] Ep20 | loss=0.2444 | acc=0.6499 | f1=0.6461 | prec=0.6461 | rec=0.6460 | mcc=0.2922 | thr=0.47
+High[F1] Ep21 | loss=0.2437 | acc=0.6479 | f1=0.6466 | prec=0.6470 | rec=0.6486 | mcc=0.2956 | thr=0.46
+High[F1] Ep22 | loss=0.2409 | acc=0.6490 | f1=0.6456 | prec=0.6454 | rec=0.6458 | mcc=0.2912 | thr=0.47
+High[F1] Ep23 | loss=0.2392 | acc=0.6504 | f1=0.6471 | prec=0.6469 | rec=0.6474 | mcc=0.2943 | thr=0.47
+High[F1] Ep24 | loss=0.2375 | acc=0.6511 | f1=0.6478 | prec=0.6476 | rec=0.6480 | mcc=0.2957 | thr=0.47
+High[F1] Ep25 | loss=0.2373 | acc=0.6504 | f1=0.6475 | prec=0.6473 | rec=0.6480 | mcc=0.2953 | thr=0.47
+High[F1] Ep26 | loss=0.2347 | acc=0.6502 | f1=0.6475 | prec=0.6473 | rec=0.6481 | mcc=0.2954 | thr=0.47
+High[F1] Ep27 | loss=0.2349 | acc=0.6496 | f1=0.6472 | prec=0.6470 | rec=0.6481 | mcc=0.2951 | thr=0.47
+High[F1] Ep28 | loss=0.2340 | acc=0.6499 | f1=0.6478 | prec=0.6476 | rec=0.6487 | mcc=0.2963 | thr=0.47
+High[F1] Ep29 | loss=0.2329 | acc=0.6502 | f1=0.6478 | prec=0.6476 | rec=0.6487 | mcc=0.2963 | thr=0.47
+High[F1] Ep30 | loss=0.2334 | acc=0.6501 | f1=0.6477 | prec=0.6475 | rec=0.6485 | mcc=0.2959 | thr=0.47
+⚠️  SWA eval skipped for high[F1]: 'dict' object has no attribute 'to'
+🏁 High[F1] Best Ep29 | Acc=0.6502 | F1=0.6478
+High[fold 2] ✅ Using 2 GPUs
+High[F2] Ep01 | loss=0.3411 | acc=0.5252 | f1=0.5223 | prec=0.5225 | rec=0.5227 | mcc=0.0452 | thr=0.32
+High[F2] Ep02 | loss=0.3016 | acc=0.5412 | f1=0.5351 | prec=0.5352 | rec=0.5351 | mcc=0.0703 | thr=0.37
+High[F2] Ep03 | loss=0.2898 | acc=0.5777 | f1=0.5689 | prec=0.5706 | rec=0.5690 | mcc=0.1396 | thr=0.39
+High[F2] Ep04 | loss=0.2821 | acc=0.5904 | f1=0.5897 | prec=0.5916 | rec=0.5926 | mcc=0.1842 | thr=0.41
+High[F2] Ep05 | loss=0.2783 | acc=0.6020 | f1=0.5987 | prec=0.5986 | rec=0.5991 | mcc=0.1977 | thr=0.42
+High[F2] Ep06 | loss=0.2738 | acc=0.6101 | f1=0.6067 | prec=0.6066 | rec=0.6070 | mcc=0.2136 | thr=0.43
+High[F2] Ep07 | loss=0.2710 | acc=0.6220 | f1=0.6148 | prec=0.6165 | rec=0.6144 | mcc=0.2310 | thr=0.44
+High[F2] Ep08 | loss=0.2684 | acc=0.6226 | f1=0.6193 | prec=0.6191 | rec=0.6195 | mcc=0.2386 | thr=0.45
+High[F2] Ep09 | loss=0.2658 | acc=0.6278 | f1=0.6217 | prec=0.6228 | rec=0.6213 | mcc=0.2441 | thr=0.46
+High[F2] Ep10 | loss=0.2639 | acc=0.6289 | f1=0.6251 | prec=0.6250 | rec=0.6251 | mcc=0.2502 | thr=0.46
+High[F2] Ep11 | loss=0.2616 | acc=0.6315 | f1=0.6284 | prec=0.6282 | rec=0.6288 | mcc=0.2570 | thr=0.46
+High[F2] Ep12 | loss=0.2604 | acc=0.6318 | f1=0.6300 | prec=0.6302 | rec=0.6315 | mcc=0.2616 | thr=0.46
+High[F2] Ep13 | loss=0.2580 | acc=0.6364 | f1=0.6329 | prec=0.6328 | rec=0.6331 | mcc=0.2659 | thr=0.46
+High[F2] Ep14 | loss=0.2562 | acc=0.6411 | f1=0.6346 | prec=0.6363 | rec=0.6341 | mcc=0.2704 | thr=0.47
+High[F2] Ep15 | loss=0.2553 | acc=0.6415 | f1=0.6359 | prec=0.6369 | rec=0.6355 | mcc=0.2724 | thr=0.47
+High[F2] Ep16 | loss=0.2532 | acc=0.6398 | f1=0.6372 | prec=0.6370 | rec=0.6378 | mcc=0.2748 | thr=0.46
+High[F2] Ep17 | loss=0.2518 | acc=0.6398 | f1=0.6376 | prec=0.6375 | rec=0.6386 | mcc=0.2760 | thr=0.46
+High[F2] Ep18 | loss=0.2488 | acc=0.6409 | f1=0.6393 | prec=0.6395 | rec=0.6409 | mcc=0.2804 | thr=0.46
+High[F2] Ep19 | loss=0.2471 | acc=0.6412 | f1=0.6400 | prec=0.6405 | rec=0.6420 | mcc=0.2825 | thr=0.46
+High[F2] Ep20 | loss=0.2439 | acc=0.6420 | f1=0.6408 | prec=0.6414 | rec=0.6429 | mcc=0.2843 | thr=0.46
+High[F2] Ep21 | loss=0.2439 | acc=0.6426 | f1=0.6411 | prec=0.6413 | rec=0.6427 | mcc=0.2840 | thr=0.46
+High[F2] Ep22 | loss=0.2428 | acc=0.6457 | f1=0.6426 | prec=0.6424 | rec=0.6429 | mcc=0.2852 | thr=0.47
+High[F2] Ep23 | loss=0.2411 | acc=0.6458 | f1=0.6433 | prec=0.6430 | rec=0.6440 | mcc=0.2870 | thr=0.47
+High[F2] Ep24 | loss=0.2391 | acc=0.6459 | f1=0.6430 | prec=0.6428 | rec=0.6435 | mcc=0.2863 | thr=0.47
+High[F2] Ep25 | loss=0.2366 | acc=0.6459 | f1=0.6431 | prec=0.6429 | rec=0.6436 | mcc=0.2865 | thr=0.47
+High[F2] Ep26 | loss=0.2363 | acc=0.6453 | f1=0.6431 | prec=0.6429 | rec=0.6440 | mcc=0.2869 | thr=0.47
+High[F2] Ep27 | loss=0.2357 | acc=0.6436 | f1=0.6428 | prec=0.6443 | rec=0.6459 | mcc=0.2902 | thr=0.46
+High[F2] Ep28 | loss=0.2346 | acc=0.6458 | f1=0.6434 | prec=0.6431 | rec=0.6442 | mcc=0.2873 | thr=0.47
+High[F2] Ep29 | loss=0.2332 | acc=0.6454 | f1=0.6430 | prec=0.6427 | rec=0.6437 | mcc=0.2865 | thr=0.47
+High[F2] Ep30 | loss=0.2337 | acc=0.6457 | f1=0.6434 | prec=0.6432 | rec=0.6442 | mcc=0.2874 | thr=0.47
+⚠️  SWA eval skipped for high[F2]: 'dict' object has no attribute 'to'
+🏁 High[F2] Best Ep30 | Acc=0.6457 | F1=0.6434
+High[fold 3] ✅ Using 2 GPUs
+High[F3] Ep01 | loss=0.3474 | acc=0.5294 | f1=0.5278 | prec=0.5287 | rec=0.5290 | mcc=0.0577 | thr=0.39
+High[F3] Ep02 | loss=0.3069 | acc=0.5740 | f1=0.5585 | prec=0.5648 | rec=0.5606 | mcc=0.1253 | thr=0.40
+High[F3] Ep03 | loss=0.2915 | acc=0.5691 | f1=0.5681 | prec=0.5696 | rec=0.5704 | mcc=0.1400 | thr=0.43
+High[F3] Ep04 | loss=0.2829 | acc=0.5931 | f1=0.5904 | prec=0.5904 | rec=0.5911 | mcc=0.1815 | thr=0.44
+High[F3] Ep05 | loss=0.2781 | acc=0.6067 | f1=0.6034 | prec=0.6032 | rec=0.6037 | mcc=0.2070 | thr=0.44
+High[F3] Ep06 | loss=0.2740 | acc=0.6129 | f1=0.6100 | prec=0.6098 | rec=0.6105 | mcc=0.2203 | thr=0.44
+High[F3] Ep07 | loss=0.2714 | acc=0.6212 | f1=0.6159 | prec=0.6164 | rec=0.6157 | mcc=0.2321 | thr=0.45
+High[F3] Ep08 | loss=0.2679 | acc=0.6235 | f1=0.6203 | prec=0.6202 | rec=0.6207 | mcc=0.2409 | thr=0.45
+High[F3] Ep09 | loss=0.2676 | acc=0.6325 | f1=0.6240 | prec=0.6273 | rec=0.6236 | mcc=0.2509 | thr=0.46
+High[F3] Ep10 | loss=0.2649 | acc=0.6341 | f1=0.6278 | prec=0.6291 | rec=0.6274 | mcc=0.2565 | thr=0.46
+High[F3] Ep11 | loss=0.2641 | acc=0.6314 | f1=0.6286 | prec=0.6284 | rec=0.6291 | mcc=0.2574 | thr=0.46
+High[F3] Ep12 | loss=0.2595 | acc=0.6374 | f1=0.6323 | prec=0.6329 | rec=0.6319 | mcc=0.2648 | thr=0.46
+High[F3] Ep13 | loss=0.2592 | acc=0.6376 | f1=0.6338 | prec=0.6338 | rec=0.6339 | mcc=0.2676 | thr=0.46
+High[F3] Ep14 | loss=0.2578 | acc=0.6410 | f1=0.6365 | prec=0.6368 | rec=0.6362 | mcc=0.2730 | thr=0.46
+High[F3] Ep15 | loss=0.2569 | acc=0.6415 | f1=0.6374 | prec=0.6375 | rec=0.6373 | mcc=0.2748 | thr=0.46
+High[F3] Ep16 | loss=0.2538 | acc=0.6416 | f1=0.6388 | prec=0.6386 | rec=0.6394 | mcc=0.2780 | thr=0.46
+High[F3] Ep17 | loss=0.2513 | acc=0.6446 | f1=0.6410 | prec=0.6409 | rec=0.6411 | mcc=0.2820 | thr=0.46
+High[F3] Ep18 | loss=0.2499 | acc=0.6450 | f1=0.6425 | prec=0.6422 | rec=0.6432 | mcc=0.2854 | thr=0.46
+High[F3] Ep19 | loss=0.2467 | acc=0.6461 | f1=0.6434 | prec=0.6431 | rec=0.6440 | mcc=0.2871 | thr=0.46
+High[F3] Ep20 | loss=0.2464 | acc=0.6462 | f1=0.6436 | prec=0.6434 | rec=0.6442 | mcc=0.2876 | thr=0.46
+High[F3] Ep21 | loss=0.2438 | acc=0.6487 | f1=0.6445 | prec=0.6447 | rec=0.6443 | mcc=0.2890 | thr=0.47
+High[F3] Ep22 | loss=0.2424 | acc=0.6472 | f1=0.6449 | prec=0.6447 | rec=0.6459 | mcc=0.2906 | thr=0.46
+High[F3] Ep23 | loss=0.2404 | acc=0.6506 | f1=0.6458 | prec=0.6463 | rec=0.6455 | mcc=0.2918 | thr=0.47
+High[F3] Ep24 | loss=0.2379 | acc=0.6472 | f1=0.6454 | prec=0.6454 | rec=0.6468 | mcc=0.2923 | thr=0.46
+High[F3] Ep25 | loss=0.2366 | acc=0.6473 | f1=0.6455 | prec=0.6455 | rec=0.6468 | mcc=0.2923 | thr=0.46
+High[F3] Ep26 | loss=0.2369 | acc=0.6484 | f1=0.6464 | prec=0.6463 | rec=0.6475 | mcc=0.2938 | thr=0.46
+High[F3] Ep27 | loss=0.2360 | acc=0.6504 | f1=0.6467 | prec=0.6467 | rec=0.6467 | mcc=0.2934 | thr=0.47
+High[F3] Ep28 | loss=0.2345 | acc=0.6482 | f1=0.6464 | prec=0.6464 | rec=0.6477 | mcc=0.2941 | thr=0.46
+High[F3] Ep29 | loss=0.2351 | acc=0.6482 | f1=0.6466 | prec=0.6467 | rec=0.6482 | mcc=0.2949 | thr=0.46
+High[F3] Ep30 | loss=0.2338 | acc=0.6482 | f1=0.6467 | prec=0.6469 | rec=0.6483 | mcc=0.2952 | thr=0.46
+⚠️  SWA eval skipped for high[F3]: 'dict' object has no attribute 'to'
+🏁 High[F3] Best Ep27 | Acc=0.6504 | F1=0.6467
+✅ High | Mean Acc=0.6488±0.0022 | Mean F1=0.6460±0.0019
+
+🚀 Expert District — 3-Fold Stratified CV
+District[fold 1] ✅ Using 2 GPUs
+District[F1] Ep01 | loss=0.5423 | acc=0.5315 | f1=0.4952 | prec=0.4958 | rec=0.4960 | mcc=-0.0082 | thr=0.59
+District[F1] Ep02 | loss=0.5002 | acc=0.5319 | f1=0.4966 | prec=0.4971 | rec=0.4972 | mcc=-0.0057 | thr=0.58
+District[F1] Ep03 | loss=0.4708 | acc=0.5448 | f1=0.4977 | prec=0.5007 | rec=0.5007 | mcc=0.0014 | thr=0.58
+District[F1] Ep04 | loss=0.4677 | acc=0.5522 | f1=0.4967 | prec=0.5025 | rec=0.5022 | mcc=0.0047 | thr=0.58
+District[F1] Ep05 | loss=0.4633 | acc=0.5342 | f1=0.4968 | prec=0.4976 | rec=0.4977 | mcc=-0.0047 | thr=0.57
+District[F1] Ep06 | loss=0.4605 | acc=0.5506 | f1=0.4961 | prec=0.5014 | rec=0.5012 | mcc=0.0026 | thr=0.56
+District[F1] Ep07 | loss=0.4611 | acc=0.5279 | f1=0.4970 | prec=0.4971 | rec=0.4971 | mcc=-0.0058 | thr=0.54
+District[F1] Ep08 | loss=0.4531 | acc=0.5414 | f1=0.4968 | prec=0.4991 | rec=0.4991 | mcc=-0.0018 | thr=0.54
+District[F1] Ep09 | loss=0.4474 | acc=0.5396 | f1=0.4967 | prec=0.4986 | rec=0.4987 | mcc=-0.0028 | thr=0.54
+⏹️  Early stopping district[F1] at epoch 9 (no improvement 6 epochs).
+⚠️  SWA eval skipped for district[F1]: 'dict' object has no attribute 'to'
+🏁 District[F1] Best Ep3 | Acc=0.5448 | F1=0.4977
+District[fold 2] ✅ Using 2 GPUs
+District[F2] Ep01 | loss=0.4821 | acc=0.5090 | f1=0.4816 | prec=0.4816 | rec=0.4815 | mcc=-0.0369 | thr=0.61
+District[F2] Ep02 | loss=0.4686 | acc=0.5257 | f1=0.4854 | prec=0.4862 | rec=0.4870 | mcc=-0.0268 | thr=0.61
+District[F2] Ep03 | loss=0.4638 | acc=0.5393 | f1=0.4821 | prec=0.4866 | rec=0.4885 | mcc=-0.0249 | thr=0.61
+District[F2] Ep04 | loss=0.4533 | acc=0.5325 | f1=0.4922 | prec=0.4933 | rec=0.4937 | mcc=-0.0130 | thr=0.60
+District[F2] Ep05 | loss=0.4470 | acc=0.5320 | f1=0.4942 | prec=0.4950 | rec=0.4952 | mcc=-0.0098 | thr=0.60
+District[F2] Ep06 | loss=0.4500 | acc=0.5183 | f1=0.4965 | prec=0.4969 | rec=0.4968 | mcc=-0.0063 | thr=0.59
+District[F2] Ep07 | loss=0.4383 | acc=0.5205 | f1=0.4971 | prec=0.4972 | rec=0.4972 | mcc=-0.0055 | thr=0.59
+District[F2] Ep08 | loss=0.4454 | acc=0.5442 | f1=0.4984 | prec=0.5011 | rec=0.5010 | mcc=0.0021 | thr=0.59
+District[F2] Ep09 | loss=0.4362 | acc=0.5296 | f1=0.4993 | prec=0.4994 | rec=0.4994 | mcc=-0.0012 | thr=0.58
+District[F2] Ep10 | loss=0.4322 | acc=0.5442 | f1=0.5025 | prec=0.5044 | rec=0.5041 | mcc=0.0086 | thr=0.58
+District[F2] Ep11 | loss=0.4365 | acc=0.5395 | f1=0.5019 | prec=0.5030 | rec=0.5028 | mcc=0.0058 | thr=0.58
+District[F2] Ep12 | loss=0.4439 | acc=0.5178 | f1=0.4976 | prec=0.4982 | rec=0.4981 | mcc=-0.0037 | thr=0.57
+District[F2] Ep13 | loss=0.4388 | acc=0.5438 | f1=0.5045 | prec=0.5060 | rec=0.5056 | mcc=0.0116 | thr=0.57
+District[F2] Ep14 | loss=0.4367 | acc=0.5217 | f1=0.5007 | prec=0.5011 | rec=0.5011 | mcc=0.0022 | thr=0.56
+District[F2] Ep15 | loss=0.4231 | acc=0.5278 | f1=0.5033 | prec=0.5034 | rec=0.5034 | mcc=0.0068 | thr=0.56
+District[F2] Ep16 | loss=0.4288 | acc=0.5435 | f1=0.5046 | prec=0.5060 | rec=0.5057 | mcc=0.0117 | thr=0.56
+District[F2] Ep17 | loss=0.4334 | acc=0.5298 | f1=0.5049 | prec=0.5049 | rec=0.5049 | mcc=0.0098 | thr=0.55
+District[F2] Ep18 | loss=0.4283 | acc=0.5399 | f1=0.5086 | prec=0.5089 | rec=0.5087 | mcc=0.0177 | thr=0.55
+District[F2] Ep19 | loss=0.4212 | acc=0.5447 | f1=0.5065 | prec=0.5079 | rec=0.5075 | mcc=0.0154 | thr=0.55
+District[F2] Ep20 | loss=0.4226 | acc=0.5542 | f1=0.5089 | prec=0.5123 | rec=0.5112 | mcc=0.0235 | thr=0.55
+District[F2] Ep21 | loss=0.4207 | acc=0.5526 | f1=0.5082 | prec=0.5113 | rec=0.5103 | mcc=0.0216 | thr=0.55
+District[F2] Ep22 | loss=0.4213 | acc=0.5496 | f1=0.5070 | prec=0.5095 | rec=0.5087 | mcc=0.0182 | thr=0.55
+District[F2] Ep23 | loss=0.4261 | acc=0.5269 | f1=0.5079 | prec=0.5085 | rec=0.5088 | mcc=0.0173 | thr=0.54
+District[F2] Ep24 | loss=0.4164 | acc=0.5302 | f1=0.5106 | prec=0.5110 | rec=0.5113 | mcc=0.0223 | thr=0.54
+District[F2] Ep25 | loss=0.4130 | acc=0.5300 | f1=0.5107 | prec=0.5111 | rec=0.5114 | mcc=0.0226 | thr=0.54
+District[F2] Ep26 | loss=0.4183 | acc=0.5329 | f1=0.5111 | prec=0.5113 | rec=0.5115 | mcc=0.0228 | thr=0.54
+District[F2] Ep27 | loss=0.4186 | acc=0.5388 | f1=0.5131 | prec=0.5131 | rec=0.5131 | mcc=0.0263 | thr=0.54
+District[F2] Ep28 | loss=0.4152 | acc=0.5404 | f1=0.5123 | prec=0.5124 | rec=0.5123 | mcc=0.0247 | thr=0.54
+District[F2] Ep29 | loss=0.4120 | acc=0.5456 | f1=0.5146 | prec=0.5150 | rec=0.5146 | mcc=0.0296 | thr=0.54
+District[F2] Ep30 | loss=0.4200 | acc=0.5487 | f1=0.5155 | prec=0.5163 | rec=0.5158 | mcc=0.0321 | thr=0.54
+⚠️  SWA eval skipped for district[F2]: 'dict' object has no attribute 'to'
+🏁 District[F2] Best Ep30 | Acc=0.5487 | F1=0.5155
+District[fold 3] ✅ Using 2 GPUs
+District[F3] Ep01 | loss=0.4895 | acc=0.5117 | f1=0.4884 | prec=0.4887 | rec=0.4885 | mcc=-0.0228 | thr=0.60
+District[F3] Ep02 | loss=0.4718 | acc=0.5162 | f1=0.4869 | prec=0.4869 | rec=0.4870 | mcc=-0.0262 | thr=0.60
+District[F3] Ep03 | loss=0.4617 | acc=0.5368 | f1=0.4884 | prec=0.4910 | rec=0.4919 | mcc=-0.0171 | thr=0.61
+District[F3] Ep04 | loss=0.4445 | acc=0.5212 | f1=0.4859 | prec=0.4861 | rec=0.4866 | mcc=-0.0273 | thr=0.60
+District[F3] Ep05 | loss=0.4577 | acc=0.5214 | f1=0.4889 | prec=0.4889 | rec=0.4892 | mcc=-0.0219 | thr=0.60
+District[F3] Ep06 | loss=0.4565 | acc=0.5149 | f1=0.4889 | prec=0.4889 | rec=0.4889 | mcc=-0.0222 | thr=0.59
+District[F3] Ep07 | loss=0.4457 | acc=0.5086 | f1=0.4882 | prec=0.4889 | rec=0.4886 | mcc=-0.0225 | thr=0.59
+District[F3] Ep08 | loss=0.4497 | acc=0.5187 | f1=0.4876 | prec=0.4876 | rec=0.4878 | mcc=-0.0247 | thr=0.60
+District[F3] Ep09 | loss=0.4350 | acc=0.5431 | f1=0.4882 | prec=0.4927 | rec=0.4937 | mcc=-0.0136 | thr=0.61
+District[F3] Ep10 | loss=0.4392 | acc=0.5070 | f1=0.4904 | prec=0.4920 | rec=0.4917 | mcc=-0.0164 | thr=0.58
+District[F3] Ep11 | loss=0.4440 | acc=0.5043 | f1=0.4908 | prec=0.4934 | rec=0.4931 | mcc=-0.0135 | thr=0.58
+District[F3] Ep12 | loss=0.4322 | acc=0.5338 | f1=0.4904 | prec=0.4920 | rec=0.4926 | mcc=-0.0154 | thr=0.59
+District[F3] Ep13 | loss=0.4397 | acc=0.5174 | f1=0.4903 | prec=0.4903 | rec=0.4903 | mcc=-0.0193 | thr=0.58
+District[F3] Ep14 | loss=0.4248 | acc=0.5088 | f1=0.4943 | prec=0.4964 | rec=0.4962 | mcc=-0.0074 | thr=0.57
+District[F3] Ep15 | loss=0.4279 | acc=0.5077 | f1=0.4939 | prec=0.4963 | rec=0.4961 | mcc=-0.0077 | thr=0.57
+District[F3] Ep16 | loss=0.4386 | acc=0.5099 | f1=0.4942 | prec=0.4959 | rec=0.4957 | mcc=-0.0084 | thr=0.57
+District[F3] Ep17 | loss=0.4257 | acc=0.5095 | f1=0.4922 | prec=0.4935 | rec=0.4932 | mcc=-0.0133 | thr=0.57
+District[F3] Ep18 | loss=0.4292 | acc=0.5111 | f1=0.4918 | prec=0.4926 | rec=0.4924 | mcc=-0.0150 | thr=0.57
+District[F3] Ep19 | loss=0.4149 | acc=0.5117 | f1=0.4921 | prec=0.4928 | rec=0.4926 | mcc=-0.0146 | thr=0.57
+District[F3] Ep20 | loss=0.4198 | acc=0.5203 | f1=0.4954 | prec=0.4955 | rec=0.4955 | mcc=-0.0090 | thr=0.57
+District[F3] Ep21 | loss=0.4273 | acc=0.5160 | f1=0.4935 | prec=0.4938 | rec=0.4937 | mcc=-0.0126 | thr=0.57
+District[F3] Ep22 | loss=0.4190 | acc=0.5140 | f1=0.4922 | prec=0.4926 | rec=0.4924 | mcc=-0.0149 | thr=0.57
+District[F3] Ep23 | loss=0.4181 | acc=0.5181 | f1=0.4937 | prec=0.4938 | rec=0.4937 | mcc=-0.0124 | thr=0.57
+District[F3] Ep24 | loss=0.4156 | acc=0.5393 | f1=0.4950 | prec=0.4971 | rec=0.4973 | mcc=-0.0056 | thr=0.58
+District[F3] Ep25 | loss=0.4176 | acc=0.5381 | f1=0.4947 | prec=0.4966 | rec=0.4969 | mcc=-0.0065 | thr=0.58
+District[F3] Ep26 | loss=0.4171 | acc=0.5174 | f1=0.4947 | prec=0.4950 | rec=0.4949 | mcc=-0.0102 | thr=0.57
+⏹️  Early stopping district[F3] at epoch 26 (no improvement 6 epochs).
+⚠️  SWA eval skipped for district[F3]: 'dict' object has no attribute 'to'
+🏁 District[F3] Best Ep20 | Acc=0.5203 | F1=0.4954
+✅ District | Mean Acc=0.5379±0.0126 | Mean F1=0.5029±0.0090
+
+🚀 Expert Tribunal — 3-Fold Stratified CV
+Tribunal[fold 1] ✅ Using 2 GPUs
+Tribunal[F1] Ep01 | loss=0.5370 | acc=0.5354 | f1=0.4786 | prec=0.4785 | rec=0.4787 | mcc=-0.0428 | thr=0.38
+Tribunal[F1] Ep02 | loss=0.4935 | acc=0.5320 | f1=0.4778 | prec=0.4778 | rec=0.4778 | mcc=-0.0444 | thr=0.41
+Tribunal[F1] Ep03 | loss=0.4778 | acc=0.5572 | f1=0.4829 | prec=0.4840 | rec=0.4855 | mcc=-0.0305 | thr=0.45
+Tribunal[F1] Ep04 | loss=0.4690 | acc=0.5572 | f1=0.4857 | prec=0.4866 | rec=0.4878 | mcc=-0.0256 | thr=0.46
+Tribunal[F1] Ep05 | loss=0.4556 | acc=0.5347 | f1=0.4865 | prec=0.4868 | rec=0.4865 | mcc=-0.0267 | thr=0.45
+Tribunal[F1] Ep06 | loss=0.4498 | acc=0.5724 | f1=0.4877 | prec=0.4912 | rec=0.4926 | mcc=-0.0161 | thr=0.48
+Tribunal[F1] Ep07 | loss=0.4521 | acc=0.5690 | f1=0.4931 | prec=0.4953 | rec=0.4958 | mcc=-0.0089 | thr=0.50
+Tribunal[F1] Ep08 | loss=0.4423 | acc=0.5450 | f1=0.4937 | prec=0.4937 | rec=0.4937 | mcc=-0.0126 | thr=0.49
+Tribunal[F1] Ep09 | loss=0.4378 | acc=0.5844 | f1=0.5005 | prec=0.5058 | rec=0.5048 | mcc=0.0106 | thr=0.52
+Tribunal[F1] Ep10 | loss=0.4358 | acc=0.5469 | f1=0.4973 | prec=0.4973 | rec=0.4973 | mcc=-0.0053 | thr=0.53
+Tribunal[F1] Ep11 | loss=0.4351 | acc=0.5569 | f1=0.5011 | prec=0.5012 | rec=0.5012 | mcc=0.0024 | thr=0.53
+Tribunal[F1] Ep12 | loss=0.4235 | acc=0.5853 | f1=0.5028 | prec=0.5080 | rec=0.5067 | mcc=0.0146 | thr=0.55
+Tribunal[F1] Ep13 | loss=0.4223 | acc=0.5883 | f1=0.5054 | prec=0.5111 | rec=0.5093 | mcc=0.0204 | thr=0.55
+Tribunal[F1] Ep14 | loss=0.4213 | acc=0.5652 | f1=0.5055 | prec=0.5060 | rec=0.5057 | mcc=0.0117 | thr=0.54
+Tribunal[F1] Ep15 | loss=0.4157 | acc=0.5932 | f1=0.5067 | prec=0.5140 | rec=0.5114 | mcc=0.0253 | thr=0.55
+Tribunal[F1] Ep16 | loss=0.4075 | acc=0.5945 | f1=0.5129 | prec=0.5194 | rec=0.5163 | mcc=0.0356 | thr=0.54
+Tribunal[F1] Ep17 | loss=0.4059 | acc=0.5734 | f1=0.5138 | prec=0.5146 | rec=0.5139 | mcc=0.0285 | thr=0.54
+Tribunal[F1] Ep18 | loss=0.4104 | acc=0.5759 | f1=0.5182 | prec=0.5189 | rec=0.5182 | mcc=0.0371 | thr=0.54
+Tribunal[F1] Ep19 | loss=0.4022 | acc=0.6121 | f1=0.5212 | prec=0.5340 | rec=0.5264 | mcc=0.0600 | thr=0.55
+Tribunal[F1] Ep20 | loss=0.4008 | acc=0.5933 | f1=0.5304 | prec=0.5329 | rec=0.5305 | mcc=0.0633 | thr=0.54
+Tribunal[F1] Ep21 | loss=0.3954 | acc=0.6012 | f1=0.5364 | prec=0.5399 | rec=0.5365 | mcc=0.0763 | thr=0.54
+Tribunal[F1] Ep22 | loss=0.3900 | acc=0.6203 | f1=0.5388 | prec=0.5504 | rec=0.5411 | mcc=0.0910 | thr=0.55
+Tribunal[F1] Ep23 | loss=0.3898 | acc=0.6116 | f1=0.5447 | prec=0.5500 | rec=0.5447 | mcc=0.0945 | thr=0.55
+Tribunal[F1] Ep24 | loss=0.3911 | acc=0.6115 | f1=0.5462 | prec=0.5509 | rec=0.5460 | mcc=0.0968 | thr=0.55
+Tribunal[F1] Ep25 | loss=0.3899 | acc=0.6195 | f1=0.5522 | prec=0.5586 | rec=0.5519 | mcc=0.1103 | thr=0.55
+Tribunal[F1] Ep26 | loss=0.3867 | acc=0.6201 | f1=0.5580 | prec=0.5628 | rec=0.5572 | mcc=0.1198 | thr=0.55
+Tribunal[F1] Ep27 | loss=0.3884 | acc=0.6192 | f1=0.5615 | prec=0.5649 | rec=0.5605 | mcc=0.1253 | thr=0.55
+Tribunal[F1] Ep28 | loss=0.3879 | acc=0.6211 | f1=0.5663 | prec=0.5689 | rec=0.5652 | mcc=0.1341 | thr=0.55
+Tribunal[F1] Ep29 | loss=0.3868 | acc=0.6231 | f1=0.5718 | prec=0.5736 | rec=0.5708 | mcc=0.1443 | thr=0.55
+Tribunal[F1] Ep30 | loss=0.3937 | acc=0.6234 | f1=0.5742 | prec=0.5755 | rec=0.5733 | mcc=0.1488 | thr=0.55
+⚠️  SWA eval skipped for tribunal[F1]: 'dict' object has no attribute 'to'
+🏁 Tribunal[F1] Best Ep30 | Acc=0.6234 | F1=0.5742
+Tribunal[fold 2] ✅ Using 2 GPUs
+Tribunal[F2] Ep01 | loss=0.5098 | acc=0.4416 | f1=0.4364 | prec=0.5326 | rec=0.5268 | mcc=0.0592 | thr=0.70
+Tribunal[F2] Ep02 | loss=0.4782 | acc=0.5425 | f1=0.5274 | prec=0.5367 | rec=0.5409 | mcc=0.0775 | thr=0.70
+Tribunal[F2] Ep03 | loss=0.4563 | acc=0.5909 | f1=0.5429 | prec=0.5430 | rec=0.5429 | mcc=0.0859 | thr=0.66
+Tribunal[F2] Ep04 | loss=0.4484 | acc=0.6008 | f1=0.5442 | prec=0.5459 | rec=0.5437 | mcc=0.0896 | thr=0.62
+Tribunal[F2] Ep05 | loss=0.4375 | acc=0.5996 | f1=0.5494 | prec=0.5500 | rec=0.5491 | mcc=0.0991 | thr=0.60
+Tribunal[F2] Ep06 | loss=0.4359 | acc=0.6101 | f1=0.5500 | prec=0.5532 | rec=0.5494 | mcc=0.1026 | thr=0.58
+Tribunal[F2] Ep07 | loss=0.4353 | acc=0.6180 | f1=0.5523 | prec=0.5580 | rec=0.5519 | mcc=0.1097 | thr=0.56
+Tribunal[F2] Ep08 | loss=0.4222 | acc=0.6091 | f1=0.5535 | prec=0.5555 | rec=0.5528 | mcc=0.1082 | thr=0.53
+Tribunal[F2] Ep09 | loss=0.4226 | acc=0.6024 | f1=0.5548 | prec=0.5551 | rec=0.5546 | mcc=0.1097 | thr=0.52
+Tribunal[F2] Ep10 | loss=0.4229 | acc=0.6128 | f1=0.5568 | prec=0.5592 | rec=0.5560 | mcc=0.1152 | thr=0.52
+Tribunal[F2] Ep11 | loss=0.4128 | acc=0.6128 | f1=0.5564 | prec=0.5589 | rec=0.5556 | mcc=0.1144 | thr=0.52
+Tribunal[F2] Ep12 | loss=0.4094 | acc=0.6164 | f1=0.5559 | prec=0.5598 | rec=0.5551 | mcc=0.1148 | thr=0.53
+Tribunal[F2] Ep13 | loss=0.4114 | acc=0.6206 | f1=0.5581 | prec=0.5631 | rec=0.5573 | mcc=0.1203 | thr=0.53
+Tribunal[F2] Ep14 | loss=0.4082 | acc=0.6264 | f1=0.5583 | prec=0.5661 | rec=0.5578 | mcc=0.1237 | thr=0.54
+Tribunal[F2] Ep15 | loss=0.4038 | acc=0.6315 | f1=0.5571 | prec=0.5684 | rec=0.5574 | mcc=0.1253 | thr=0.55
+Tribunal[F2] Ep16 | loss=0.3997 | acc=0.6254 | f1=0.5612 | prec=0.5673 | rec=0.5603 | mcc=0.1274 | thr=0.53
+Tribunal[F2] Ep17 | loss=0.3977 | acc=0.6012 | f1=0.5619 | prec=0.5614 | rec=0.5632 | mcc=0.1245 | thr=0.50
+Tribunal[F2] Ep18 | loss=0.3956 | acc=0.6376 | f1=0.5639 | prec=0.5762 | rec=0.5637 | mcc=0.1394 | thr=0.54
+Tribunal[F2] Ep19 | loss=0.3894 | acc=0.6448 | f1=0.5660 | prec=0.5829 | rec=0.5664 | mcc=0.1483 | thr=0.55
+Tribunal[F2] Ep20 | loss=0.3910 | acc=0.6271 | f1=0.5693 | prec=0.5734 | rec=0.5681 | mcc=0.1414 | thr=0.51
+Tribunal[F2] Ep21 | loss=0.3822 | acc=0.6336 | f1=0.5746 | prec=0.5799 | rec=0.5731 | mcc=0.1529 | thr=0.51
+Tribunal[F2] Ep22 | loss=0.3861 | acc=0.6359 | f1=0.5803 | prec=0.5845 | rec=0.5787 | mcc=0.1631 | thr=0.51
+Tribunal[F2] Ep23 | loss=0.3859 | acc=0.6382 | f1=0.5811 | prec=0.5861 | rec=0.5794 | mcc=0.1654 | thr=0.51
+Tribunal[F2] Ep24 | loss=0.3812 | acc=0.6387 | f1=0.5832 | prec=0.5877 | rec=0.5815 | mcc=0.1690 | thr=0.51
+Tribunal[F2] Ep25 | loss=0.3752 | acc=0.6412 | f1=0.5843 | prec=0.5896 | rec=0.5824 | mcc=0.1719 | thr=0.51
+Tribunal[F2] Ep26 | loss=0.3788 | acc=0.6423 | f1=0.5863 | prec=0.5914 | rec=0.5844 | mcc=0.1756 | thr=0.51
+Tribunal[F2] Ep27 | loss=0.3786 | acc=0.6403 | f1=0.5875 | prec=0.5911 | rec=0.5859 | mcc=0.1769 | thr=0.51
+Tribunal[F2] Ep28 | loss=0.3818 | acc=0.6493 | f1=0.5886 | prec=0.5969 | rec=0.5865 | mcc=0.1830 | thr=0.52
+Tribunal[F2] Ep29 | loss=0.3800 | acc=0.6487 | f1=0.5914 | prec=0.5978 | rec=0.5892 | mcc=0.1868 | thr=0.52
+Tribunal[F2] Ep30 | loss=0.3762 | acc=0.6443 | f1=0.5903 | prec=0.5948 | rec=0.5884 | mcc=0.1831 | thr=0.52
+⚠️  SWA eval skipped for tribunal[F2]: 'dict' object has no attribute 'to'
+🏁 Tribunal[F2] Best Ep29 | Acc=0.6487 | F1=0.5914
+Tribunal[fold 3] ✅ Using 2 GPUs
+Tribunal[F3] Ep01 | loss=0.5387 | acc=0.3541 | f1=0.2901 | prec=0.5160 | rec=0.5027 | mcc=0.0130 | thr=0.70
+Tribunal[F3] Ep02 | loss=0.4827 | acc=0.3809 | f1=0.3476 | prec=0.5130 | rec=0.5059 | mcc=0.0175 | thr=0.70
+Tribunal[F3] Ep03 | loss=0.4625 | acc=0.4815 | f1=0.4795 | prec=0.5135 | rec=0.5145 | mcc=0.0280 | thr=0.70
+Tribunal[F3] Ep04 | loss=0.4518 | acc=0.5591 | f1=0.5247 | prec=0.5255 | rec=0.5271 | mcc=0.0526 | thr=0.70
+Tribunal[F3] Ep05 | loss=0.4452 | acc=0.6009 | f1=0.5356 | prec=0.5392 | rec=0.5357 | mcc=0.0748 | thr=0.70
+Tribunal[F3] Ep06 | loss=0.4410 | acc=0.5947 | f1=0.5338 | prec=0.5360 | rec=0.5337 | mcc=0.0696 | thr=0.69
+Tribunal[F3] Ep07 | loss=0.4400 | acc=0.5771 | f1=0.5342 | prec=0.5340 | rec=0.5348 | mcc=0.0688 | thr=0.67
+Tribunal[F3] Ep08 | loss=0.4335 | acc=0.5907 | f1=0.5407 | prec=0.5410 | rec=0.5405 | mcc=0.0816 | thr=0.66
+Tribunal[F3] Ep09 | loss=0.4320 | acc=0.5872 | f1=0.5369 | prec=0.5372 | rec=0.5367 | mcc=0.0739 | thr=0.64
+Tribunal[F3] Ep10 | loss=0.4204 | acc=0.6065 | f1=0.5412 | prec=0.5454 | rec=0.5412 | mcc=0.0865 | thr=0.63
+Tribunal[F3] Ep11 | loss=0.4276 | acc=0.5832 | f1=0.5453 | prec=0.5450 | rec=0.5469 | mcc=0.0919 | thr=0.62
+Tribunal[F3] Ep12 | loss=0.4173 | acc=0.5793 | f1=0.5502 | prec=0.5510 | rec=0.5549 | mcc=0.1058 | thr=0.62
+Tribunal[F3] Ep13 | loss=0.4095 | acc=0.6216 | f1=0.5474 | prec=0.5566 | rec=0.5481 | mcc=0.1043 | thr=0.61
+Tribunal[F3] Ep14 | loss=0.4132 | acc=0.5819 | f1=0.5539 | prec=0.5548 | rec=0.5591 | mcc=0.1138 | thr=0.60
+Tribunal[F3] Ep15 | loss=0.4056 | acc=0.5941 | f1=0.5562 | prec=0.5557 | rec=0.5578 | mcc=0.1135 | thr=0.60
+Tribunal[F3] Ep16 | loss=0.4068 | acc=0.5909 | f1=0.5653 | prec=0.5663 | rec=0.5719 | mcc=0.1381 | thr=0.59
+Tribunal[F3] Ep17 | loss=0.4025 | acc=0.6166 | f1=0.5774 | prec=0.5767 | rec=0.5785 | mcc=0.1552 | thr=0.59
+Tribunal[F3] Ep18 | loss=0.3952 | acc=0.6186 | f1=0.5814 | prec=0.5806 | rec=0.5831 | mcc=0.1636 | thr=0.59
+Tribunal[F3] Ep19 | loss=0.3941 | acc=0.6213 | f1=0.5858 | prec=0.5848 | rec=0.5880 | mcc=0.1727 | thr=0.59
+Tribunal[F3] Ep20 | loss=0.3866 | acc=0.6442 | f1=0.5904 | prec=0.5948 | rec=0.5886 | mcc=0.1832 | thr=0.59
+Tribunal[F3] Ep21 | loss=0.3902 | acc=0.6405 | f1=0.5935 | prec=0.5951 | rec=0.5924 | mcc=0.1875 | thr=0.59
+Tribunal[F3] Ep22 | loss=0.3908 | acc=0.6347 | f1=0.5935 | prec=0.5933 | rec=0.5937 | mcc=0.1870 | thr=0.59
+Tribunal[F3] Ep23 | loss=0.3873 | acc=0.6347 | f1=0.5971 | prec=0.5962 | rec=0.5983 | mcc=0.1945 | thr=0.59
+Tribunal[F3] Ep24 | loss=0.3836 | acc=0.6370 | f1=0.5972 | prec=0.5968 | rec=0.5977 | mcc=0.1945 | thr=0.59
+Tribunal[F3] Ep25 | loss=0.3862 | acc=0.6406 | f1=0.5974 | prec=0.5979 | rec=0.5970 | mcc=0.1949 | thr=0.59
+Tribunal[F3] Ep26 | loss=0.3804 | acc=0.6182 | f1=0.5970 | prec=0.5980 | rec=0.6072 | mcc=0.2050 | thr=0.58
+Tribunal[F3] Ep27 | loss=0.3838 | acc=0.6408 | f1=0.5981 | prec=0.5984 | rec=0.5978 | mcc=0.1962 | thr=0.59
+Tribunal[F3] Ep28 | loss=0.3796 | acc=0.6431 | f1=0.5994 | prec=0.6001 | rec=0.5988 | mcc=0.1988 | thr=0.59
+Tribunal[F3] Ep29 | loss=0.3792 | acc=0.6456 | f1=0.6002 | prec=0.6016 | rec=0.5992 | mcc=0.2007 | thr=0.59
+Tribunal[F3] Ep30 | loss=0.3788 | acc=0.6488 | f1=0.6014 | prec=0.6036 | rec=0.5999 | mcc=0.2035 | thr=0.59
+⚠️  SWA eval skipped for tribunal[F3]: 'dict' object has no attribute 'to'
+🏁 Tribunal[F3] Best Ep30 | Acc=0.6488 | F1=0.6014
+✅ Tribunal | Mean Acc=0.6403±0.0119 | Mean F1=0.5890±0.0112
+
+🚀 Expert Daily — 3-Fold Stratified CV
+Daily[fold 1] ✅ Using 2 GPUs
+Daily[F1] Ep01 | loss=0.5288 | acc=0.5342 | f1=0.5140 | prec=0.5153 | rec=0.5160 | mcc=0.0313 | thr=0.70
+Daily[F1] Ep02 | loss=0.4912 | acc=0.5510 | f1=0.5158 | prec=0.5159 | rec=0.5157 | mcc=0.0316 | thr=0.70
+Daily[F1] Ep03 | loss=0.4742 | acc=0.5479 | f1=0.5187 | prec=0.5187 | rec=0.5190 | mcc=0.0377 | thr=0.68
+Daily[F1] Ep04 | loss=0.4547 | acc=0.5568 | f1=0.5206 | prec=0.5209 | rec=0.5206 | mcc=0.0415 | thr=0.67
+Daily[F1] Ep05 | loss=0.4689 | acc=0.5521 | f1=0.5205 | prec=0.5205 | rec=0.5206 | mcc=0.0411 | thr=0.65
+Daily[F1] Ep06 | loss=0.4645 | acc=0.5537 | f1=0.5211 | prec=0.5211 | rec=0.5211 | mcc=0.0421 | thr=0.63
+Daily[F1] Ep07 | loss=0.4600 | acc=0.5497 | f1=0.5205 | prec=0.5204 | rec=0.5207 | mcc=0.0412 | thr=0.62
+Daily[F1] Ep08 | loss=0.4588 | acc=0.5524 | f1=0.5224 | prec=0.5224 | rec=0.5226 | mcc=0.0450 | thr=0.61
+Daily[F1] Ep09 | loss=0.4492 | acc=0.5515 | f1=0.5243 | prec=0.5243 | rec=0.5248 | mcc=0.0491 | thr=0.60
+Daily[F1] Ep10 | loss=0.4534 | acc=0.5579 | f1=0.5256 | prec=0.5256 | rec=0.5256 | mcc=0.0513 | thr=0.59
+Daily[F1] Ep11 | loss=0.4434 | acc=0.5572 | f1=0.5257 | prec=0.5257 | rec=0.5258 | mcc=0.0514 | thr=0.58
+Daily[F1] Ep12 | loss=0.4413 | acc=0.5466 | f1=0.5246 | prec=0.5253 | rec=0.5263 | mcc=0.0516 | thr=0.57
+Daily[F1] Ep13 | loss=0.4418 | acc=0.5552 | f1=0.5251 | prec=0.5250 | rec=0.5253 | mcc=0.0503 | thr=0.57
+Daily[F1] Ep14 | loss=0.4467 | acc=0.5490 | f1=0.5251 | prec=0.5254 | rec=0.5263 | mcc=0.0516 | thr=0.56
+Daily[F1] Ep15 | loss=0.4389 | acc=0.5522 | f1=0.5247 | prec=0.5247 | rec=0.5252 | mcc=0.0499 | thr=0.55
+Daily[F1] Ep16 | loss=0.4355 | acc=0.5486 | f1=0.5264 | prec=0.5269 | rec=0.5280 | mcc=0.0549 | thr=0.54
+Daily[F1] Ep17 | loss=0.4416 | acc=0.5579 | f1=0.5285 | prec=0.5284 | rec=0.5287 | mcc=0.0570 | thr=0.54
+Daily[F1] Ep18 | loss=0.4346 | acc=0.5607 | f1=0.5268 | prec=0.5269 | rec=0.5267 | mcc=0.0536 | thr=0.54
+Daily[F1] Ep19 | loss=0.4362 | acc=0.5495 | f1=0.5247 | prec=0.5249 | rec=0.5257 | mcc=0.0506 | thr=0.53
+Daily[F1] Ep20 | loss=0.4344 | acc=0.5585 | f1=0.5278 | prec=0.5277 | rec=0.5279 | mcc=0.0556 | thr=0.53
+Daily[F1] Ep21 | loss=0.4369 | acc=0.5577 | f1=0.5274 | prec=0.5273 | rec=0.5275 | mcc=0.0548 | thr=0.53
+Daily[F1] Ep22 | loss=0.4335 | acc=0.5577 | f1=0.5273 | prec=0.5272 | rec=0.5274 | mcc=0.0546 | thr=0.53
+Daily[F1] Ep23 | loss=0.4305 | acc=0.5469 | f1=0.5262 | prec=0.5270 | rec=0.5282 | mcc=0.0552 | thr=0.52
+⏹️  Early stopping daily[F1] at epoch 23 (no improvement 6 epochs).
+⚠️  SWA eval skipped for daily[F1]: 'dict' object has no attribute 'to'
+🏁 Daily[F1] Best Ep17 | Acc=0.5579 | F1=0.5285
+Daily[fold 2] ✅ Using 2 GPUs
+Daily[F2] Ep01 | loss=0.5529 | acc=0.5657 | f1=0.4905 | prec=0.4995 | rec=0.4996 | mcc=-0.0009 | thr=0.68
+Daily[F2] Ep02 | loss=0.4994 | acc=0.5279 | f1=0.4939 | prec=0.4939 | rec=0.4939 | mcc=-0.0121 | thr=0.66
+Daily[F2] Ep03 | loss=0.4817 | acc=0.5662 | f1=0.4923 | prec=0.5011 | rec=0.5009 | mcc=0.0019 | thr=0.67
+Daily[F2] Ep04 | loss=0.4681 | acc=0.5335 | f1=0.4936 | prec=0.4938 | rec=0.4940 | mcc=-0.0123 | thr=0.65
+Daily[F2] Ep05 | loss=0.4660 | acc=0.5611 | f1=0.4932 | prec=0.4997 | rec=0.4997 | mcc=-0.0006 | thr=0.65
+Daily[F2] Ep06 | loss=0.4598 | acc=0.5723 | f1=0.4947 | prec=0.5058 | rec=0.5045 | mcc=0.0102 | thr=0.65
+Daily[F2] Ep07 | loss=0.4616 | acc=0.5668 | f1=0.4948 | prec=0.5032 | rec=0.5026 | mcc=0.0058 | thr=0.64
+Daily[F2] Ep08 | loss=0.4406 | acc=0.5231 | f1=0.4941 | prec=0.4944 | rec=0.4942 | mcc=-0.0114 | thr=0.62
+Daily[F2] Ep09 | loss=0.4573 | acc=0.5280 | f1=0.4973 | prec=0.4974 | rec=0.4973 | mcc=-0.0053 | thr=0.61
+Daily[F2] Ep10 | loss=0.4511 | acc=0.5354 | f1=0.4983 | prec=0.4983 | rec=0.4984 | mcc=-0.0033 | thr=0.61
+Daily[F2] Ep11 | loss=0.4516 | acc=0.5399 | f1=0.4987 | prec=0.4991 | rec=0.4991 | mcc=-0.0018 | thr=0.61
+Daily[F2] Ep12 | loss=0.4531 | acc=0.5534 | f1=0.5006 | prec=0.5031 | rec=0.5028 | mcc=0.0059 | thr=0.61
+Daily[F2] Ep13 | loss=0.4511 | acc=0.5421 | f1=0.5018 | prec=0.5022 | rec=0.5021 | mcc=0.0042 | thr=0.60
+Daily[F2] Ep14 | loss=0.4449 | acc=0.5635 | f1=0.5022 | prec=0.5076 | rec=0.5065 | mcc=0.0140 | thr=0.61
+Daily[F2] Ep15 | loss=0.4409 | acc=0.5430 | f1=0.5026 | prec=0.5030 | rec=0.5029 | mcc=0.0059 | thr=0.60
+Daily[F2] Ep16 | loss=0.4387 | acc=0.5478 | f1=0.5007 | prec=0.5020 | rec=0.5019 | mcc=0.0039 | thr=0.60
+Daily[F2] Ep17 | loss=0.4384 | acc=0.5502 | f1=0.5026 | prec=0.5040 | rec=0.5038 | mcc=0.0078 | thr=0.60
+Daily[F2] Ep18 | loss=0.4439 | acc=0.5580 | f1=0.5051 | prec=0.5080 | rec=0.5073 | mcc=0.0153 | thr=0.60
+Daily[F2] Ep19 | loss=0.4378 | acc=0.5606 | f1=0.5070 | prec=0.5103 | rec=0.5093 | mcc=0.0196 | thr=0.60
+Daily[F2] Ep20 | loss=0.4402 | acc=0.5531 | f1=0.5058 | prec=0.5074 | rec=0.5069 | mcc=0.0143 | thr=0.60
+Daily[F2] Ep21 | loss=0.4380 | acc=0.5580 | f1=0.5065 | prec=0.5092 | rec=0.5084 | mcc=0.0176 | thr=0.60
+Daily[F2] Ep22 | loss=0.4341 | acc=0.5615 | f1=0.5059 | prec=0.5098 | rec=0.5087 | mcc=0.0184 | thr=0.60
+Daily[F2] Ep23 | loss=0.4432 | acc=0.5613 | f1=0.5058 | prec=0.5096 | rec=0.5086 | mcc=0.0181 | thr=0.60
+Daily[F2] Ep24 | loss=0.4412 | acc=0.5629 | f1=0.5066 | prec=0.5108 | rec=0.5096 | mcc=0.0203 | thr=0.60
+Daily[F2] Ep25 | loss=0.4303 | acc=0.5606 | f1=0.5071 | prec=0.5104 | rec=0.5094 | mcc=0.0198 | thr=0.60
+Daily[F2] Ep26 | loss=0.4363 | acc=0.5363 | f1=0.5065 | prec=0.5065 | rec=0.5066 | mcc=0.0131 | thr=0.59
+Daily[F2] Ep27 | loss=0.4377 | acc=0.5640 | f1=0.5066 | prec=0.5111 | rec=0.5098 | mcc=0.0209 | thr=0.60
+Daily[F2] Ep28 | loss=0.4383 | acc=0.5670 | f1=0.5088 | prec=0.5138 | rec=0.5121 | mcc=0.0259 | thr=0.60
+Daily[F2] Ep29 | loss=0.4418 | acc=0.5414 | f1=0.5083 | prec=0.5083 | rec=0.5083 | mcc=0.0167 | thr=0.59
+Daily[F2] Ep30 | loss=0.4414 | acc=0.5419 | f1=0.5085 | prec=0.5085 | rec=0.5085 | mcc=0.0169 | thr=0.59
+⚠️  SWA eval skipped for daily[F2]: 'dict' object has no attribute 'to'
+🏁 Daily[F2] Best Ep28 | Acc=0.5670 | F1=0.5088
+Daily[fold 3] ✅ Using 2 GPUs
+Daily[F3] Ep01 | loss=0.5019 | acc=0.5454 | f1=0.4924 | prec=0.4943 | rec=0.4948 | mcc=-0.0109 | thr=0.33
+Daily[F3] Ep02 | loss=0.4684 | acc=0.5443 | f1=0.4937 | prec=0.4952 | rec=0.4956 | mcc=-0.0092 | thr=0.33
+Daily[F3] Ep03 | loss=0.4582 | acc=0.5246 | f1=0.4948 | prec=0.4950 | rec=0.4949 | mcc=-0.0101 | thr=0.33
+Daily[F3] Ep04 | loss=0.4406 | acc=0.5169 | f1=0.4944 | prec=0.4957 | rec=0.4955 | mcc=-0.0087 | thr=0.33
+Daily[F3] Ep05 | loss=0.4422 | acc=0.5299 | f1=0.4967 | prec=0.4967 | rec=0.4967 | mcc=-0.0067 | thr=0.34
+Daily[F3] Ep06 | loss=0.4506 | acc=0.5176 | f1=0.4961 | prec=0.4976 | rec=0.4975 | mcc=-0.0048 | thr=0.34
+Daily[F3] Ep07 | loss=0.4401 | acc=0.5260 | f1=0.4980 | prec=0.4983 | rec=0.4983 | mcc=-0.0034 | thr=0.34
+Daily[F3] Ep08 | loss=0.4487 | acc=0.5195 | f1=0.4975 | prec=0.4989 | rec=0.4989 | mcc=-0.0022 | thr=0.34
+Daily[F3] Ep09 | loss=0.4434 | acc=0.5401 | f1=0.4968 | prec=0.4973 | rec=0.4974 | mcc=-0.0052 | thr=0.35
+Daily[F3] Ep10 | loss=0.4351 | acc=0.5224 | f1=0.4968 | prec=0.4975 | rec=0.4974 | mcc=-0.0050 | thr=0.35
+Daily[F3] Ep11 | loss=0.4411 | acc=0.5209 | f1=0.4973 | prec=0.4983 | rec=0.4982 | mcc=-0.0035 | thr=0.35
+Daily[F3] Ep12 | loss=0.4313 | acc=0.5507 | f1=0.4986 | prec=0.5008 | rec=0.5008 | mcc=0.0016 | thr=0.35
+Daily[F3] Ep13 | loss=0.4363 | acc=0.5467 | f1=0.4975 | prec=0.4990 | rec=0.4991 | mcc=-0.0019 | thr=0.35
+Daily[F3] Ep14 | loss=0.4320 | acc=0.5306 | f1=0.4976 | prec=0.4977 | rec=0.4976 | mcc=-0.0047 | thr=0.35
+Daily[F3] Ep15 | loss=0.4372 | acc=0.5317 | f1=0.4983 | prec=0.4983 | rec=0.4983 | mcc=-0.0034 | thr=0.35
+Daily[F3] Ep16 | loss=0.4331 | acc=0.5313 | f1=0.5007 | prec=0.5008 | rec=0.5008 | mcc=0.0015 | thr=0.35
+Daily[F3] Ep17 | loss=0.4339 | acc=0.5390 | f1=0.5014 | prec=0.5015 | rec=0.5015 | mcc=0.0029 | thr=0.35
+Daily[F3] Ep18 | loss=0.4254 | acc=0.5374 | f1=0.5010 | prec=0.5011 | rec=0.5011 | mcc=0.0022 | thr=0.35
+Daily[F3] Ep19 | loss=0.4249 | acc=0.5428 | f1=0.5024 | prec=0.5028 | rec=0.5027 | mcc=0.0054 | thr=0.35
+Daily[F3] Ep20 | loss=0.4256 | acc=0.5405 | f1=0.5023 | prec=0.5025 | rec=0.5024 | mcc=0.0049 | thr=0.35
+Daily[F3] Ep21 | loss=0.4203 | acc=0.5354 | f1=0.5010 | prec=0.5010 | rec=0.5010 | mcc=0.0020 | thr=0.35
+Daily[F3] Ep22 | loss=0.4283 | acc=0.5337 | f1=0.4998 | prec=0.4998 | rec=0.4998 | mcc=-0.0004 | thr=0.35
+Daily[F3] Ep23 | loss=0.4258 | acc=0.5385 | f1=0.5020 | prec=0.5021 | rec=0.5020 | mcc=0.0041 | thr=0.35
+Daily[F3] Ep24 | loss=0.4173 | acc=0.5332 | f1=0.5012 | prec=0.5012 | rec=0.5012 | mcc=0.0024 | thr=0.35
+Daily[F3] Ep25 | loss=0.4291 | acc=0.5319 | f1=0.5007 | prec=0.5008 | rec=0.5008 | mcc=0.0016 | thr=0.35
+⏹️  Early stopping daily[F3] at epoch 25 (no improvement 6 epochs).
+⚠️  SWA eval skipped for daily[F3]: 'dict' object has no attribute 'to'
+🏁 Daily[F3] Best Ep19 | Acc=0.5428 | F1=0.5024
+✅ Daily | Mean Acc=0.5559±0.0099 | Mean F1=0.5132±0.0111
+
+🎯 All experts trained successfully.
+Artifacts per expert → /home/infodna/Court-MOE/experts_legalbert_kfold/<expert>/
+  • <expert>_fold{k}.pt
+  • <expert>_fold{k}_cm.png and _cm_norm.png
+  • <expert>_fold{k}_swa_metrics.json (optional)
+  • <expert>_summary.json
+Global summary → experts_legalbert_kfold/summary_2025-10-31_06-22-00.json

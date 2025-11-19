@@ -1,0 +1,857 @@
+
+=================== Multi-Expert Run: 2025-10-30 06:59:55.146865 ===================
+🔥 Starting Shared-Encoder Multi-Expert Training (GPUs 1 & 2)...
+
+📦 Loading supreme from: encoding/encoded_output_final/final_balanced_by_court/SupremeCourt_embeddings_final.pth
+✅ supreme: 228600 samples
+📦 Loading high from: encoding/encoded_output_final/final_balanced_by_court/HighCourt_embeddings_final.pth
+✅ high: 232978 samples
+📦 Loading district from: encoding/encoded_output_final/final_balanced_by_court/DistrictCourt_embeddings_final.pth
+✅ district: 13297 samples
+📦 Loading tribunal from: encoding/encoded_output_final/final_balanced_by_court/TribunalCourt_embeddings_final.pth
+✅ tribunal: 35246 samples
+📦 Loading daily from: encoding/encoded_output_final/final_balanced_by_court/DailyOrderCourt_embeddings_final.pth
+✅ daily: 16420 samples
+
+📊 Totals: N=526541 | per-court={'supreme': 228600, 'high': 232978, 'district': 13297, 'tribunal': 35246, 'daily': 16420}
+  - supreme: total=228600, class_counts={1: 94020, 0: 134580}
+  - high: total=232978, class_counts={0: 128548, 1: 104430}
+  - district: total=13297, class_counts={0: 8194, 1: 5103}
+  - tribunal: total=35246, class_counts={0: 23289, 1: 11957}
+  - daily: total=16420, class_counts={0: 10345, 1: 6075}
+⚖️ pos_weight_by_court: {'supreme': 1.431, 'high': 1.231, 'district': 1.606, 'tribunal': 1.948, 'daily': 1.703}
+
+🧠 Epoch 1/30
+💡 Train loss: 0.5304
+📊 Overall@1: Acc=0.4890 | F1=0.4879 | Prec=0.4943 | Rec=0.4942 | MCC=-0.0115
+🧾 Overall CM:
+[[21115 24628]
+ [15731 17508]]
+  └ Supreme@1: Acc=0.4918 | F1=0.4894 | Prec=0.4954 | Rec=0.4952 | MCC=-0.0094
+    CM:
+[[ 9609 10578]
+ [ 6847  7256]]
+  └ High@1: Acc=0.4909 | F1=0.4908 | Prec=0.4951 | Rec=0.4950 | MCC=-0.0099
+    CM:
+[[ 8778 10504]
+ [ 7287  8378]]
+  └ District@1: Acc=0.3850 | F1=0.2975 | Prec=0.4484 | Rec=0.4934 | MCC=-0.0368
+    CM:
+[[  32 1197]
+ [  30  736]]
+  └ Tribunal@1: Acc=0.4589 | F1=0.4522 | Prec=0.4749 | Rec=0.4723 | MCC=-0.0528
+    CM:
+[[1504 1989]
+ [ 872  922]]
+  └ Daily@1: Acc=0.5717 | F1=0.4919 | Prec=0.5033 | Rec=0.5026 | MCC=0.0059
+    CM:
+[[1192  360]
+ [ 695  216]]
+💾 Saved best model → experts_shared_encoder/shared_encoder_multi_expert.pt (Acc=0.4890)
+
+🧠 Epoch 2/30
+💡 Train loss: 0.4807
+📊 Overall@2: Acc=0.4861 | F1=0.4846 | Prec=0.5075 | Rec=0.5072 | MCC=0.0147
+🧾 Overall CM:
+[[17101 28642]
+ [11948 21291]]
+  └ Supreme@2: Acc=0.4876 | F1=0.4876 | Prec=0.5016 | Rec=0.5016 | MCC=0.0032
+    CM:
+[[ 8531 11656]
+ [ 5914  8189]]
+  └ High@2: Acc=0.4839 | F1=0.4723 | Prec=0.5056 | Rec=0.5047 | MCC=0.0103
+    CM:
+[[ 5859 13423]
+ [ 4612 11053]]
+  └ District@2: Acc=0.3845 | F1=0.2896 | Prec=0.4478 | Rec=0.4960 | MCC=-0.0290
+    CM:
+[[  19 1210]
+ [  18  748]]
+  └ Tribunal@2: Acc=0.4783 | F1=0.4767 | Prec=0.5126 | Rec=0.5134 | MCC=0.0260
+    CM:
+[[1412 2081]
+ [ 677 1117]]
+  └ Daily@2: Acc=0.5944 | F1=0.4943 | Prec=0.5206 | Rec=0.5134 | MCC=0.0332
+    CM:
+[[1280  272]
+ [ 727  184]]
+
+🧠 Epoch 3/30
+💡 Train loss: 0.4290
+📊 Overall@3: Acc=0.4993 | F1=0.4992 | Prec=0.5147 | Rec=0.5145 | MCC=0.0292
+🧾 Overall CM:
+[[19141 26602]
+ [12943 20296]]
+  └ Supreme@3: Acc=0.4997 | F1=0.4979 | Prec=0.5047 | Rec=0.5049 | MCC=0.0096
+    CM:
+[[ 9603 10584]
+ [ 6571  7532]]
+  └ High@3: Acc=0.5007 | F1=0.4964 | Prec=0.5171 | Rec=0.5158 | MCC=0.0329
+    CM:
+[[ 7125 12157]
+ [ 5292 10373]]
+  └ District@3: Acc=0.4110 | F1=0.3507 | Prec=0.5298 | Rec=0.5092 | MCC=0.0331
+    CM:
+[[ 106 1123]
+ [  52  714]]
+  └ Tribunal@3: Acc=0.4931 | F1=0.4926 | Prec=0.5369 | Rec=0.5384 | MCC=0.0753
+    CM:
+[[1388 2105]
+ [ 575 1219]]
+  └ Daily@3: Acc=0.5591 | F1=0.5431 | Prec=0.5448 | Rec=0.5474 | MCC=0.0922
+    CM:
+[[919 633]
+ [453 458]]
+💾 Saved best model → experts_shared_encoder/shared_encoder_multi_expert.pt (Acc=0.4993)
+
+🧠 Epoch 4/30
+💡 Train loss: 0.3838
+📊 Overall@4: Acc=0.4916 | F1=0.4874 | Prec=0.5208 | Rec=0.5188 | MCC=0.0395
+🧾 Overall CM:
+[[15849 29894]
+ [10264 22975]]
+  └ Supreme@4: Acc=0.4698 | F1=0.4628 | Prec=0.5071 | Rec=0.5062 | MCC=0.0133
+    CM:
+[[ 6087 14100]
+ [ 4079 10024]]
+  └ High@4: Acc=0.5121 | F1=0.5088 | Prec=0.5280 | Rec=0.5263 | MCC=0.0543
+    CM:
+[[ 7512 11770]
+ [ 5279 10386]]
+  └ District@4: Acc=0.4797 | F1=0.4679 | Prec=0.5573 | Rec=0.5435 | MCC=0.0998
+    CM:
+[[330 899]
+ [139 627]]
+  └ Tribunal@4: Acc=0.5071 | F1=0.5061 | Prec=0.5467 | Rec=0.5493 | MCC=0.0959
+    CM:
+[[1460 2033]
+ [ 573 1221]]
+  └ Daily@4: Acc=0.4779 | F1=0.4721 | Prec=0.5499 | Rec=0.5417 | MCC=0.0912
+    CM:
+[[ 460 1092]
+ [ 194  717]]
+
+🧠 Epoch 5/30
+💡 Train loss: 0.3543
+📊 Overall@5: Acc=0.5019 | F1=0.4996 | Prec=0.5276 | Rec=0.5258 | MCC=0.0534
+🧾 Overall CM:
+[[17133 28610]
+ [10732 22507]]
+  └ Supreme@5: Acc=0.4938 | F1=0.4936 | Prec=0.5136 | Rec=0.5134 | MCC=0.0269
+    CM:
+[[ 8134 12053]
+ [ 5306  8797]]
+  └ High@5: Acc=0.5100 | F1=0.5024 | Prec=0.5320 | Rec=0.5284 | MCC=0.0602
+    CM:
+[[ 6761 12521]
+ [ 4604 11061]]
+  └ District@5: Acc=0.5208 | F1=0.5193 | Prec=0.5688 | Rec=0.5641 | MCC=0.1328
+    CM:
+[[464 765]
+ [191 575]]
+  └ Tribunal@5: Acc=0.5148 | F1=0.5143 | Prec=0.5600 | Rec=0.5625 | MCC=0.1224
+    CM:
+[[1447 2046]
+ [ 519 1275]]
+  └ Daily@5: Acc=0.4572 | F1=0.4365 | Prec=0.5698 | Rec=0.5439 | MCC=0.1107
+    CM:
+[[ 327 1225]
+ [ 112  799]]
+💾 Saved best model → experts_shared_encoder/shared_encoder_multi_expert.pt (Acc=0.5019)
+
+🧠 Epoch 6/30
+💡 Train loss: 0.3391
+📊 Overall@6: Acc=0.5059 | F1=0.5038 | Prec=0.5313 | Rec=0.5294 | MCC=0.0607
+🧾 Overall CM:
+[[17416 28327]
+ [10698 22541]]
+  └ Supreme@6: Acc=0.4797 | F1=0.4759 | Prec=0.5119 | Rec=0.5108 | MCC=0.0228
+    CM:
+[[ 6769 13418]
+ [ 4423  9680]]
+  └ High@6: Acc=0.5272 | F1=0.5253 | Prec=0.5413 | Rec=0.5395 | MCC=0.0808
+    CM:
+[[ 8111 11171]
+ [ 5351 10314]]
+  └ District@6: Acc=0.5248 | F1=0.5237 | Prec=0.5707 | Rec=0.5666 | MCC=0.1372
+    CM:
+[[475 754]
+ [194 572]]
+  └ Tribunal@6: Acc=0.5449 | F1=0.5410 | Prec=0.5682 | Rec=0.5747 | MCC=0.1428
+    CM:
+[[1684 1809]
+ [ 597 1197]]
+  └ Daily@6: Acc=0.4689 | F1=0.4545 | Prec=0.5688 | Rec=0.5485 | MCC=0.1155
+    CM:
+[[ 377 1175]
+ [ 133  778]]
+💾 Saved best model → experts_shared_encoder/shared_encoder_multi_expert.pt (Acc=0.5059)
+
+🧠 Epoch 7/30
+💡 Train loss: 0.3240
+📊 Overall@7: Acc=0.5170 | F1=0.5168 | Prec=0.5340 | Rec=0.5335 | MCC=0.0675
+🧾 Overall CM:
+[[19629 26114]
+ [12035 21204]]
+  └ Supreme@7: Acc=0.4853 | F1=0.4820 | Prec=0.5171 | Rec=0.5157 | MCC=0.0328
+    CM:
+[[ 6956 13231]
+ [ 4417  9686]]
+  └ High@7: Acc=0.5455 | F1=0.5449 | Prec=0.5471 | Rec=0.5476 | MCC=0.0947
+    CM:
+[[10176  9106]
+ [ 6776  8889]]
+  └ District@7: Acc=0.5404 | F1=0.5400 | Prec=0.5808 | Rec=0.5782 | MCC=0.1591
+    CM:
+[[510 719]
+ [198 568]]
+  └ Tribunal@7: Acc=0.5461 | F1=0.5439 | Prec=0.5781 | Rec=0.5842 | MCC=0.1622
+    CM:
+[[1626 1867]
+ [ 533 1261]]
+  └ Daily@7: Acc=0.4714 | F1=0.4540 | Prec=0.5833 | Rec=0.5554 | MCC=0.1359
+    CM:
+[[ 361 1191]
+ [ 111  800]]
+💾 Saved best model → experts_shared_encoder/shared_encoder_multi_expert.pt (Acc=0.5170)
+
+🧠 Epoch 8/30
+💡 Train loss: 0.3140
+📊 Overall@8: Acc=0.5205 | F1=0.5199 | Prec=0.5407 | Rec=0.5396 | MCC=0.0802
+🧾 Overall CM:
+[[19166 26577]
+ [11297 21942]]
+  └ Supreme@8: Acc=0.4824 | F1=0.4756 | Prec=0.5218 | Rec=0.5189 | MCC=0.0406
+    CM:
+[[ 6321 13866]
+ [ 3884 10219]]
+  └ High@8: Acc=0.5536 | F1=0.5531 | Prec=0.5556 | Rec=0.5561 | MCC=0.1117
+    CM:
+[[10257  9025]
+ [ 6575  9090]]
+  └ District@8: Acc=0.5619 | F1=0.5619 | Prec=0.5924 | Rec=0.5928 | MCC=0.1852
+    CM:
+[[565 664]
+ [210 556]]
+  └ Tribunal@8: Acc=0.5478 | F1=0.5464 | Prec=0.5853 | Rec=0.5909 | MCC=0.1761
+    CM:
+[[1595 1898]
+ [ 493 1301]]
+  └ Daily@8: Acc=0.4888 | F1=0.4784 | Prec=0.5843 | Rec=0.5638 | MCC=0.1467
+    CM:
+[[ 428 1124]
+ [ 135  776]]
+💾 Saved best model → experts_shared_encoder/shared_encoder_multi_expert.pt (Acc=0.5205)
+
+🧠 Epoch 9/30
+💡 Train loss: 0.3027
+📊 Overall@9: Acc=0.5350 | F1=0.5350 | Prec=0.5472 | Rec=0.5474 | MCC=0.0947
+🧾 Overall CM:
+[[21444 24299]
+ [12428 20811]]
+  └ Supreme@9: Acc=0.5062 | F1=0.5056 | Prec=0.5298 | Rec=0.5289 | MCC=0.0586
+    CM:
+[[ 8092 12095]
+ [ 4839  9264]]
+  └ High@9: Acc=0.5618 | F1=0.5604 | Prec=0.5614 | Rec=0.5621 | MCC=0.1234
+    CM:
+[[10794  8488]
+ [ 6825  8840]]
+  └ District@9: Acc=0.5744 | F1=0.5742 | Prec=0.5998 | Rec=0.6017 | MCC=0.2015
+    CM:
+[[595 634]
+ [215 551]]
+  └ Tribunal@9: Acc=0.5392 | F1=0.5391 | Prec=0.5942 | Rec=0.5961 | MCC=0.1904
+    CM:
+[[1464 2029]
+ [ 407 1387]]
+  └ Daily@9: Acc=0.5148 | F1=0.5089 | Prec=0.6003 | Rec=0.5828 | MCC=0.1823
+    CM:
+[[ 499 1053]
+ [ 142  769]]
+💾 Saved best model → experts_shared_encoder/shared_encoder_multi_expert.pt (Acc=0.5350)
+
+🧠 Epoch 10/30
+💡 Train loss: 0.2938
+📊 Overall@10: Acc=0.5214 | F1=0.5196 | Prec=0.5477 | Rec=0.5450 | MCC=0.0927
+🧾 Overall CM:
+[[18121 27622]
+ [10175 23064]]
+  └ Supreme@10: Acc=0.4793 | F1=0.4640 | Prec=0.5342 | Rec=0.5259 | MCC=0.0595
+    CM:
+[[ 5316 14871]
+ [ 2983 11120]]
+  └ High@10: Acc=0.5566 | F1=0.5563 | Prec=0.5590 | Rec=0.5596 | MCC=0.1186
+    CM:
+[[10244  9038]
+ [ 6456  9209]]
+  └ District@10: Acc=0.5564 | F1=0.5562 | Prec=0.5947 | Rec=0.5927 | MCC=0.1874
+    CM:
+[[536 693]
+ [192 574]]
+  └ Tribunal@10: Acc=0.5508 | F1=0.5506 | Prec=0.6035 | Rec=0.6065 | MCC=0.2100
+    CM:
+[[1513 1980]
+ [ 395 1399]]
+  └ Daily@10: Acc=0.5173 | F1=0.5122 | Prec=0.5987 | Rec=0.5832 | MCC=0.1812
+    CM:
+[[ 512 1040]
+ [ 149  762]]
+
+🧠 Epoch 11/30
+💡 Train loss: 0.2855
+📊 Overall@11: Acc=0.5340 | F1=0.5339 | Prec=0.5513 | Rec=0.5506 | MCC=0.1019
+🧾 Overall CM:
+[[20391 25352]
+ [11453 21786]]
+  └ Supreme@11: Acc=0.4880 | F1=0.4807 | Prec=0.5300 | Rec=0.5256 | MCC=0.0555
+    CM:
+[[ 6330 13857]
+ [ 3699 10404]]
+  └ High@11: Acc=0.5670 | F1=0.5654 | Prec=0.5660 | Rec=0.5667 | MCC=0.1327
+    CM:
+[[10990  8292]
+ [ 6839  8826]]
+  └ District@11: Acc=0.5724 | F1=0.5724 | Prec=0.6033 | Rec=0.6038 | MCC=0.2071
+    CM:
+[[576 653]
+ [200 566]]
+  └ Tribunal@11: Acc=0.5880 | F1=0.5838 | Prec=0.6090 | Rec=0.6198 | MCC=0.2285
+    CM:
+[[1820 1673]
+ [ 505 1289]]
+  └ Daily@11: Acc=0.5587 | F1=0.5586 | Prec=0.6035 | Rec=0.6022 | MCC=0.2057
+    CM:
+[[675 877]
+ [210 701]]
+
+🧠 Epoch 12/30
+💡 Train loss: 0.2776
+📊 Overall@12: Acc=0.5361 | F1=0.5353 | Prec=0.5585 | Rec=0.5565 | MCC=0.1150
+🧾 Overall CM:
+[[19548 26195]
+ [10447 22792]]
+  └ Supreme@12: Acc=0.4989 | F1=0.4927 | Prec=0.5408 | Rec=0.5354 | MCC=0.0760
+    CM:
+[[ 6653 13534]
+ [ 3649 10454]]
+  └ High@12: Acc=0.5657 | F1=0.5656 | Prec=0.5698 | Rec=0.5702 | MCC=0.1400
+    CM:
+[[10160  9122]
+ [ 6055  9610]]
+  └ District@12: Acc=0.5749 | F1=0.5749 | Prec=0.6107 | Rec=0.6098 | MCC=0.2205
+    CM:
+[[565 664]
+ [184 582]]
+  └ Tribunal@12: Acc=0.5531 | F1=0.5531 | Prec=0.6156 | Rec=0.6159 | MCC=0.2315
+    CM:
+[[1468 2025]
+ [ 338 1456]]
+  └ Daily@12: Acc=0.5652 | F1=0.5652 | Prec=0.6043 | Rec=0.6049 | MCC=0.2092
+    CM:
+[[702 850]
+ [221 690]]
+💾 Saved best model → experts_shared_encoder/shared_encoder_multi_expert.pt (Acc=0.5361)
+
+🧠 Epoch 13/30
+💡 Train loss: 0.2705
+📊 Overall@13: Acc=0.5299 | F1=0.5262 | Prec=0.5637 | Rec=0.5580 | MCC=0.1216
+🧾 Overall CM:
+[[17415 28328]
+ [ 8800 24439]]
+  └ Supreme@13: Acc=0.4903 | F1=0.4759 | Prec=0.5477 | Rec=0.5365 | MCC=0.0835
+    CM:
+[[ 5568 14619]
+ [ 2859 11244]]
+  └ High@13: Acc=0.5623 | F1=0.5618 | Prec=0.5729 | Rec=0.5716 | MCC=0.1445
+    CM:
+[[ 9272 10010]
+ [ 5288 10377]]
+  └ District@13: Acc=0.5749 | F1=0.5749 | Prec=0.6118 | Rec=0.6105 | MCC=0.2223
+    CM:
+[[562 667]
+ [181 585]]
+  └ Tribunal@13: Acc=0.5459 | F1=0.5457 | Prec=0.6196 | Rec=0.6159 | MCC=0.2355
+    CM:
+[[1390 2103]
+ [ 298 1496]]
+  └ Daily@13: Acc=0.5522 | F1=0.5512 | Prec=0.6120 | Rec=0.6052 | MCC=0.2171
+    CM:
+[[623 929]
+ [174 737]]
+
+🧠 Epoch 14/30
+💡 Train loss: 0.2621
+📊 Overall@14: Acc=0.5369 | F1=0.5343 | Prec=0.5675 | Rec=0.5627 | MCC=0.1302
+🧾 Overall CM:
+[[18273 27470]
+ [ 9107 24132]]
+  └ Supreme@14: Acc=0.4964 | F1=0.4860 | Prec=0.5475 | Rec=0.5386 | MCC=0.0857
+    CM:
+[[ 6072 14115]
+ [ 3153 10950]]
+  └ High@14: Acc=0.5674 | F1=0.5671 | Prec=0.5774 | Rec=0.5763 | MCC=0.1538
+    CM:
+[[ 9452  9830]
+ [ 5287 10378]]
+  └ District@14: Acc=0.5860 | F1=0.5860 | Prec=0.6202 | Rec=0.6199 | MCC=0.2402
+    CM:
+[[582 647]
+ [179 587]]
+  └ Tribunal@14: Acc=0.5644 | F1=0.5644 | Prec=0.6256 | Rec=0.6268 | MCC=0.2524
+    CM:
+[[1511 1982]
+ [ 321 1473]]
+  └ Daily@14: Acc=0.5684 | F1=0.5679 | Prec=0.6254 | Rec=0.6197 | MCC=0.2450
+    CM:
+[[656 896]
+ [167 744]]
+💾 Saved best model → experts_shared_encoder/shared_encoder_multi_expert.pt (Acc=0.5369)
+
+🧠 Epoch 15/30
+💡 Train loss: 0.2560
+📊 Overall@15: Acc=0.5442 | F1=0.5427 | Prec=0.5712 | Rec=0.5676 | MCC=0.1387
+🧾 Overall CM:
+[[19208 26535]
+ [ 9466 23773]]
+  └ Supreme@15: Acc=0.5012 | F1=0.4923 | Prec=0.5501 | Rec=0.5416 | MCC=0.0913
+    CM:
+[[ 6330 13857]
+ [ 3248 10855]]
+  └ High@15: Acc=0.5756 | F1=0.5755 | Prec=0.5832 | Rec=0.5828 | MCC=0.1660
+    CM:
+[[ 9885  9397]
+ [ 5436 10229]]
+  └ District@15: Acc=0.5915 | F1=0.5910 | Prec=0.6132 | Rec=0.6165 | MCC=0.2298
+    CM:
+[[625 604]
+ [211 555]]
+  └ Tribunal@15: Acc=0.5860 | F1=0.5843 | Prec=0.6221 | Rec=0.6309 | MCC=0.2529
+    CM:
+[[1715 1778]
+ [ 411 1383]]
+  └ Daily@15: Acc=0.5700 | F1=0.5694 | Prec=0.6292 | Rec=0.6226 | MCC=0.2516
+    CM:
+[[653 899]
+ [160 751]]
+💾 Saved best model → experts_shared_encoder/shared_encoder_multi_expert.pt (Acc=0.5442)
+
+🧠 Epoch 16/30
+💡 Train loss: 0.2489
+📊 Overall@16: Acc=0.5462 | F1=0.5451 | Prec=0.5708 | Rec=0.5680 | MCC=0.1388
+🧾 Overall CM:
+[[19683 26060]
+ [ 9784 23455]]
+  └ Supreme@16: Acc=0.5044 | F1=0.4941 | Prec=0.5576 | Rec=0.5468 | MCC=0.1039
+    CM:
+[[ 6209 13978]
+ [ 3017 11086]]
+  └ High@16: Acc=0.5742 | F1=0.5740 | Prec=0.5776 | Rec=0.5782 | MCC=0.1558
+    CM:
+[[10406  8876]
+ [ 6004  9661]]
+  └ District@16: Acc=0.5995 | F1=0.5987 | Prec=0.6183 | Rec=0.6226 | MCC=0.2409
+    CM:
+[[643 586]
+ [213 553]]
+  └ Tribunal@16: Acc=0.5903 | F1=0.5890 | Prec=0.6292 | Rec=0.6379 | MCC=0.2670
+    CM:
+[[1711 1782]
+ [ 384 1410]]
+  └ Daily@16: Acc=0.5924 | F1=0.5923 | Prec=0.6410 | Rec=0.6389 | MCC=0.2799
+    CM:
+[[714 838]
+ [166 745]]
+💾 Saved best model → experts_shared_encoder/shared_encoder_multi_expert.pt (Acc=0.5462)
+
+🧠 Epoch 17/30
+💡 Train loss: 0.2436
+📊 Overall@17: Acc=0.5564 | F1=0.5563 | Prec=0.5729 | Rec=0.5724 | MCC=0.1453
+🧾 Overall CM:
+[[21552 24191]
+ [10848 22391]]
+  └ Supreme@17: Acc=0.5156 | F1=0.5135 | Prec=0.5473 | Rec=0.5443 | MCC=0.0915
+    CM:
+[[ 7724 12463]
+ [ 4148  9955]]
+  └ High@17: Acc=0.5870 | F1=0.5866 | Prec=0.5894 | Rec=0.5902 | MCC=0.1795
+    CM:
+[[10784  8498]
+ [ 5936  9729]]
+  └ District@17: Acc=0.6000 | F1=0.5987 | Prec=0.6151 | Rec=0.6200 | MCC=0.2351
+    CM:
+[[656 573]
+ [225 541]]
+  └ Tribunal@17: Acc=0.5897 | F1=0.5886 | Prec=0.6306 | Rec=0.6388 | MCC=0.2693
+    CM:
+[[1698 1795]
+ [ 374 1420]]
+  └ Daily@17: Acc=0.5830 | F1=0.5828 | Prec=0.6355 | Rec=0.6317 | MCC=0.2672
+    CM:
+[[690 862]
+ [165 746]]
+💾 Saved best model → experts_shared_encoder/shared_encoder_multi_expert.pt (Acc=0.5564)
+
+🧠 Epoch 18/30
+💡 Train loss: 0.2366
+📊 Overall@18: Acc=0.5568 | F1=0.5565 | Prec=0.5759 | Rec=0.5747 | MCC=0.1506
+🧾 Overall CM:
+[[21114 24629]
+ [10379 22860]]
+  └ Supreme@18: Acc=0.5115 | F1=0.5055 | Prec=0.5559 | Rec=0.5485 | MCC=0.1041
+    CM:
+[[ 6868 13319]
+ [ 3430 10673]]
+  └ High@18: Acc=0.5883 | F1=0.5874 | Prec=0.5890 | Rec=0.5900 | MCC=0.1790
+    CM:
+[[11057  8225]
+ [ 6164  9501]]
+  └ District@18: Acc=0.6095 | F1=0.6076 | Prec=0.6212 | Rec=0.6270 | MCC=0.2481
+    CM:
+[[678 551]
+ [228 538]]
+  └ Tribunal@18: Acc=0.5875 | F1=0.5868 | Prec=0.6342 | Rec=0.6409 | MCC=0.2750
+    CM:
+[[1658 1835]
+ [ 346 1448]]
+  └ Daily@18: Acc=0.6305 | F1=0.6291 | Prec=0.6510 | Rec=0.6590 | MCC=0.3099
+    CM:
+[[853 699]
+ [211 700]]
+💾 Saved best model → experts_shared_encoder/shared_encoder_multi_expert.pt (Acc=0.5568)
+
+🧠 Epoch 19/30
+💡 Train loss: 0.2313
+📊 Overall@19: Acc=0.5532 | F1=0.5508 | Prec=0.5853 | Rec=0.5794 | MCC=0.1645
+🧾 Overall CM:
+[[18955 26788]
+ [ 8498 24741]]
+  └ Supreme@19: Acc=0.5064 | F1=0.4968 | Prec=0.5588 | Rec=0.5482 | MCC=0.1065
+    CM:
+[[ 6310 13877]
+ [ 3049 11054]]
+  └ High@19: Acc=0.5803 | F1=0.5791 | Prec=0.5950 | Rec=0.5919 | MCC=0.1869
+    CM:
+[[ 9236 10046]
+ [ 4623 11042]]
+  └ District@19: Acc=0.6226 | F1=0.6186 | Prec=0.6259 | Rec=0.6329 | MCC=0.2587
+    CM:
+[[723 506]
+ [247 519]]
+  └ Tribunal@19: Acc=0.6194 | F1=0.6158 | Prec=0.6419 | Rec=0.6557 | MCC=0.2973
+    CM:
+[[1896 1597]
+ [ 415 1379]]
+  └ Daily@19: Acc=0.6240 | F1=0.6239 | Prec=0.6616 | Rec=0.6645 | MCC=0.3260
+    CM:
+[[790 762]
+ [164 747]]
+
+🧠 Epoch 20/30
+💡 Train loss: 0.2261
+📊 Overall@20: Acc=0.5504 | F1=0.5470 | Prec=0.5858 | Rec=0.5784 | MCC=0.1640
+🧾 Overall CM:
+[[18353 27390]
+ [ 8124 25115]]
+  └ Supreme@20: Acc=0.4917 | F1=0.4683 | Prec=0.5693 | Rec=0.5461 | MCC=0.1130
+    CM:
+[[ 4836 15351]
+ [ 2079 12024]]
+  └ High@20: Acc=0.5882 | F1=0.5882 | Prec=0.5966 | Rec=0.5960 | MCC=0.1926
+    CM:
+[[10043  9239]
+ [ 5151 10514]]
+  └ District@20: Acc=0.6326 | F1=0.6265 | Prec=0.6300 | Rec=0.6374 | MCC=0.2673
+    CM:
+[[758 471]
+ [262 504]]
+  └ Tribunal@20: Acc=0.6132 | F1=0.6096 | Prec=0.6362 | Rec=0.6494 | MCC=0.2853
+    CM:
+[[1875 1618]
+ [ 427 1367]]
+  └ Daily@20: Acc=0.6281 | F1=0.6270 | Prec=0.6511 | Rec=0.6584 | MCC=0.3095
+    CM:
+[[841 711]
+ [205 706]]
+
+🧠 Epoch 21/30
+💡 Train loss: 0.2209
+📊 Overall@21: Acc=0.5604 | F1=0.5582 | Prec=0.5919 | Rec=0.5860 | MCC=0.1778
+🧾 Overall CM:
+[[19395 26348]
+ [ 8376 24863]]
+  └ Supreme@21: Acc=0.5050 | F1=0.4924 | Prec=0.5645 | Rec=0.5504 | MCC=0.1140
+    CM:
+[[ 5951 14236]
+ [ 2736 11367]]
+  └ High@21: Acc=0.5963 | F1=0.5960 | Prec=0.6070 | Rec=0.6055 | MCC=0.2126
+    CM:
+[[ 9951  9331]
+ [ 4778 10887]]
+  └ District@21: Acc=0.6110 | F1=0.6097 | Prec=0.6260 | Rec=0.6314 | MCC=0.2574
+    CM:
+[[668 561]
+ [215 551]]
+  └ Tribunal@21: Acc=0.6298 | F1=0.6240 | Prec=0.6420 | Rec=0.6575 | MCC=0.2991
+    CM:
+[[1996 1497]
+ [ 460 1334]]
+  └ Daily@21: Acc=0.6305 | F1=0.6299 | Prec=0.6581 | Rec=0.6644 | MCC=0.3225
+    CM:
+[[829 723]
+ [187 724]]
+💾 Saved best model → experts_shared_encoder/shared_encoder_multi_expert.pt (Acc=0.5604)
+
+🧠 Epoch 22/30
+💡 Train loss: 0.2154
+📊 Overall@22: Acc=0.5645 | F1=0.5636 | Prec=0.5897 | Rec=0.5863 | MCC=0.1760
+🧾 Overall CM:
+[[20505 25238]
+ [ 9162 24077]]
+  └ Supreme@22: Acc=0.5151 | F1=0.5080 | Prec=0.5634 | Rec=0.5540 | MCC=0.1170
+    CM:
+[[ 6763 13424]
+ [ 3202 10901]]
+  └ High@22: Acc=0.5972 | F1=0.5972 | Prec=0.6043 | Rec=0.6041 | MCC=0.2085
+    CM:
+[[10351  8931]
+ [ 5147 10518]]
+  └ District@22: Acc=0.6130 | F1=0.6122 | Prec=0.6320 | Rec=0.6367 | MCC=0.2687
+    CM:
+[[657 572]
+ [200 566]]
+  └ Tribunal@22: Acc=0.6126 | F1=0.6101 | Prec=0.6418 | Rec=0.6541 | MCC=0.2956
+    CM:
+[[1834 1659]
+ [ 389 1405]]
+  └ Daily@22: Acc=0.6443 | F1=0.6417 | Prec=0.6569 | Rec=0.6670 | MCC=0.3237
+    CM:
+[[900 652]
+ [224 687]]
+💾 Saved best model → experts_shared_encoder/shared_encoder_multi_expert.pt (Acc=0.5645)
+
+🧠 Epoch 23/30
+💡 Train loss: 0.2107
+📊 Overall@23: Acc=0.5671 | F1=0.5661 | Prec=0.5931 | Rec=0.5894 | MCC=0.1825
+🧾 Overall CM:
+[[20522 25221]
+ [ 8969 24270]]
+  └ Supreme@23: Acc=0.5224 | F1=0.5192 | Prec=0.5593 | Rec=0.5542 | MCC=0.1134
+    CM:
+[[ 7566 12621]
+ [ 3757 10346]]
+  └ High@23: Acc=0.5953 | F1=0.5944 | Prec=0.6101 | Rec=0.6068 | MCC=0.2169
+    CM:
+[[ 9559  9723]
+ [ 4419 11246]]
+  └ District@23: Acc=0.6336 | F1=0.6305 | Prec=0.6397 | Rec=0.6473 | MCC=0.2869
+    CM:
+[[723 506]
+ [225 541]]
+  └ Tribunal@23: Acc=0.6153 | F1=0.6128 | Prec=0.6450 | Rec=0.6575 | MCC=0.3022
+    CM:
+[[1838 1655]
+ [ 379 1415]]
+  └ Daily@23: Acc=0.6326 | F1=0.6318 | Prec=0.6588 | Rec=0.6656 | MCC=0.3244
+    CM:
+[[836 716]
+ [189 722]]
+💾 Saved best model → experts_shared_encoder/shared_encoder_multi_expert.pt (Acc=0.5671)
+
+🧠 Epoch 24/30
+💡 Train loss: 0.2058
+📊 Overall@24: Acc=0.5663 | F1=0.5655 | Prec=0.5910 | Rec=0.5878 | MCC=0.1787
+🧾 Overall CM:
+[[20673 25070]
+ [ 9188 24051]]
+  └ Supreme@24: Acc=0.5169 | F1=0.5099 | Prec=0.5650 | Rec=0.5555 | MCC=0.1201
+    CM:
+[[ 6821 13366]
+ [ 3200 10903]]
+  └ High@24: Acc=0.5988 | F1=0.5988 | Prec=0.6055 | Rec=0.6055 | MCC=0.2110
+    CM:
+[[10437  8845]
+ [ 5175 10490]]
+  └ District@24: Acc=0.6130 | F1=0.6115 | Prec=0.6269 | Rec=0.6326 | MCC=0.2594
+    CM:
+[[674 555]
+ [217 549]]
+  └ Tribunal@24: Acc=0.6193 | F1=0.6168 | Prec=0.6488 | Rec=0.6617 | MCC=0.3102
+    CM:
+[[1850 1643]
+ [ 370 1424]]
+  └ Daily@24: Acc=0.6399 | F1=0.6373 | Prec=0.6533 | Rec=0.6630 | MCC=0.3162
+    CM:
+[[891 661]
+ [226 685]]
+
+🧠 Epoch 25/30
+💡 Train loss: 0.2010
+📊 Overall@25: Acc=0.5680 | F1=0.5668 | Prec=0.5961 | Rec=0.5915 | MCC=0.1875
+🧾 Overall CM:
+[[20279 25464]
+ [ 8653 24586]]
+  └ Supreme@25: Acc=0.5277 | F1=0.5260 | Prec=0.5590 | Rec=0.5556 | MCC=0.1146
+    CM:
+[[ 8037 12150]
+ [ 4046 10057]]
+  └ High@25: Acc=0.5898 | F1=0.5867 | Prec=0.6130 | Rec=0.6054 | MCC=0.2182
+    CM:
+[[ 8780 10502]
+ [ 3832 11833]]
+  └ District@25: Acc=0.6306 | F1=0.6269 | Prec=0.6346 | Rec=0.6421 | MCC=0.2767
+    CM:
+[[728 501]
+ [236 530]]
+  └ Tribunal@25: Acc=0.6251 | F1=0.6222 | Prec=0.6519 | Rec=0.6657 | MCC=0.3173
+    CM:
+[[1884 1609]
+ [ 373 1421]]
+  └ Daily@25: Acc=0.6476 | F1=0.6469 | Prec=0.6757 | Rec=0.6827 | MCC=0.3584
+    CM:
+[[850 702]
+ [166 745]]
+💾 Saved best model → experts_shared_encoder/shared_encoder_multi_expert.pt (Acc=0.5680)
+
+🧠 Epoch 26/30
+💡 Train loss: 0.1964
+📊 Overall@26: Acc=0.5718 | F1=0.5711 | Prec=0.5962 | Rec=0.5931 | MCC=0.1892
+🧾 Overall CM:
+[[20990 24753]
+ [ 9066 24173]]
+  └ Supreme@26: Acc=0.5215 | F1=0.5159 | Prec=0.5664 | Rec=0.5580 | MCC=0.1241
+    CM:
+[[ 7104 13083]
+ [ 3326 10777]]
+  └ High@26: Acc=0.6005 | F1=0.6003 | Prec=0.6095 | Rec=0.6087 | MCC=0.2182
+    CM:
+[[10207  9075]
+ [ 4888 10777]]
+  └ District@26: Acc=0.6326 | F1=0.6301 | Prec=0.6414 | Rec=0.6487 | MCC=0.2899
+    CM:
+[[712 517]
+ [216 550]]
+  └ Tribunal@26: Acc=0.6471 | F1=0.6416 | Prec=0.6600 | Rec=0.6774 | MCC=0.3370
+    CM:
+[[2036 1457]
+ [ 409 1385]]
+  └ Daily@26: Acc=0.6557 | F1=0.6522 | Prec=0.6641 | Rec=0.6753 | MCC=0.3392
+    CM:
+[[931 621]
+ [227 684]]
+💾 Saved best model → experts_shared_encoder/shared_encoder_multi_expert.pt (Acc=0.5718)
+
+🧠 Epoch 27/30
+💡 Train loss: 0.1914
+📊 Overall@27: Acc=0.5770 | F1=0.5767 | Prec=0.5976 | Rec=0.5958 | MCC=0.1933
+🧾 Overall CM:
+[[21815 23928]
+ [ 9485 23754]]
+  └ Supreme@27: Acc=0.5137 | F1=0.5031 | Prec=0.5712 | Rec=0.5572 | MCC=0.1277
+    CM:
+[[ 6299 13888]
+ [ 2786 11317]]
+  └ High@27: Acc=0.6158 | F1=0.6150 | Prec=0.6163 | Rec=0.6176 | MCC=0.2339
+    CM:
+[[11577  7705]
+ [ 5721  9944]]
+  └ District@27: Acc=0.6566 | F1=0.6472 | Prec=0.6470 | Rec=0.6539 | MCC=0.3008
+    CM:
+[[818 411]
+ [274 492]]
+  └ Tribunal@27: Acc=0.6508 | F1=0.6434 | Prec=0.6561 | Rec=0.6739 | MCC=0.3296
+    CM:
+[[2103 1390]
+ [ 456 1338]]
+  └ Daily@27: Acc=0.6825 | F1=0.6758 | Prec=0.6790 | Rec=0.6918 | MCC=0.3706
+    CM:
+[[1018  534]
+ [ 248  663]]
+💾 Saved best model → experts_shared_encoder/shared_encoder_multi_expert.pt (Acc=0.5770)
+
+🧠 Epoch 28/30
+💡 Train loss: 0.1875
+📊 Overall@28: Acc=0.5788 | F1=0.5784 | Prec=0.6018 | Rec=0.5992 | MCC=0.2010
+🧾 Overall CM:
+[[21534 24209]
+ [ 9056 24183]]
+  └ Supreme@28: Acc=0.5248 | F1=0.5178 | Prec=0.5750 | Rec=0.5639 | MCC=0.1384
+    CM:
+[[ 6933 13254]
+ [ 3042 11061]]
+  └ High@28: Acc=0.6075 | F1=0.6075 | Prec=0.6146 | Rec=0.6144 | MCC=0.2290
+    CM:
+[[10559  8723]
+ [ 4994 10671]]
+  └ District@28: Acc=0.6571 | F1=0.6457 | Prec=0.6447 | Rec=0.6504 | MCC=0.2950
+    CM:
+[[835 394]
+ [290 476]]
+  └ Tribunal@28: Acc=0.6578 | F1=0.6490 | Prec=0.6584 | Rec=0.6767 | MCC=0.3346
+    CM:
+[[2159 1334]
+ [ 475 1319]]
+  └ Daily@28: Acc=0.6918 | F1=0.6838 | Prec=0.6849 | Rec=0.6977 | MCC=0.3824
+    CM:
+[[1048  504]
+ [ 255  656]]
+💾 Saved best model → experts_shared_encoder/shared_encoder_multi_expert.pt (Acc=0.5788)
+
+🧠 Epoch 29/30
+💡 Train loss: 0.1833
+📊 Overall@29: Acc=0.5805 | F1=0.5803 | Prec=0.6015 | Rec=0.5996 | MCC=0.2011
+🧾 Overall CM:
+[[21927 23816]
+ [ 9314 23925]]
+  └ Supreme@29: Acc=0.5292 | F1=0.5242 | Prec=0.5737 | Rec=0.5651 | MCC=0.1385
+    CM:
+[[ 7323 12864]
+ [ 3281 10822]]
+  └ High@29: Acc=0.6059 | F1=0.6058 | Prec=0.6137 | Rec=0.6133 | MCC=0.2270
+    CM:
+[[10443  8839]
+ [ 4935 10730]]
+  └ District@29: Acc=0.6657 | F1=0.6547 | Prec=0.6536 | Rec=0.6598 | MCC=0.3133
+    CM:
+[[842 387]
+ [280 486]]
+  └ Tribunal@29: Acc=0.6699 | F1=0.6561 | Prec=0.6581 | Rec=0.6751 | MCC=0.3327
+    CM:
+[[2302 1191]
+ [ 554 1240]]
+  └ Daily@29: Acc=0.6756 | F1=0.6681 | Prec=0.6706 | Rec=0.6827 | MCC=0.3532
+    CM:
+[[1017  535]
+ [ 264  647]]
+💾 Saved best model → experts_shared_encoder/shared_encoder_multi_expert.pt (Acc=0.5805)
+
+🧠 Epoch 30/30
+💡 Train loss: 0.1788
+📊 Overall@30: Acc=0.5855 | F1=0.5854 | Prec=0.6035 | Rec=0.6026 | MCC=0.2061
+🧾 Overall CM:
+[[22625 23118]
+ [ 9621 23618]]
+  └ Supreme@30: Acc=0.5361 | F1=0.5341 | Prec=0.5702 | Rec=0.5656 | MCC=0.1357
+    CM:
+[[ 8066 12121]
+ [ 3785 10318]]
+  └ High@30: Acc=0.6157 | F1=0.6156 | Prec=0.6211 | Rec=0.6215 | MCC=0.2426
+    CM:
+[[10901  8381]
+ [ 5050 10615]]
+  └ District@30: Acc=0.6421 | F1=0.6391 | Prec=0.6484 | Rec=0.6564 | MCC=0.3047
+    CM:
+[[731 498]
+ [216 550]]
+  └ Tribunal@30: Acc=0.6544 | F1=0.6489 | Prec=0.6664 | Rec=0.6847 | MCC=0.3506
+    CM:
+[[2063 1430]
+ [ 397 1397]]
+  └ Daily@30: Acc=0.6504 | F1=0.6495 | Prec=0.6754 | Rec=0.6834 | MCC=0.3587
+    CM:
+[[864 688]
+ [173 738]]
+💾 Saved best model → experts_shared_encoder/shared_encoder_multi_expert.pt (Acc=0.5855)
+
+🏁 Finished training | Best overall Acc=0.5855
+📁 Confusion matrices saved under: experts_shared_encoder/confusion_matrices
