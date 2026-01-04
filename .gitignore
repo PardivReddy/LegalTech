@@ -1,60 +1,31 @@
-.ipynb_checkpoints/
+# Python
 __pycache__/
 *.pyc
-*.swp
-*.swo
-.DS_Store
-*.h5
-*.pt
-*.onnx
-datasets/
-*.log
-.bash_history
+.ipynb_checkpoints/
+
+# Environments
 env/
 venv/
-.gitconfig
-dustbin.ipynb
-*.csvtokenization/Tokenized_output_final/
-tokenization/Tokenized_output_final/tokenized_multi_fixed_1760646787.jsonl
-CJPE_ext_SCI_HCs_Tribunals_daily_orders_test.csv
-Datasets/Dailyorder_single_2020_2024.csv
-Datasets/legal_text_classification.csv
-Datasets/Tribunal_single_2020_2024.csv
-Datasets/dataset_multi_lora.jsonl
-Datasets/dataset_multi_lora_reclassified_final.jsonl
-Experts/experts_finetuned/supreme_expert.pt
-Experts/experts_finetuned/district_expert.pt
-Experts/experts_finetuned/high_expert.pt
-Experts/experts_finetuned/tribunal_expert.pt
-Experts/experts_finetuned/daily_expert.pt
-.git/objects/pack/tmp_pack_DFSpGb
-.git/objects/pack/pack-5dc0c5ba14448ba180ec90562bbdb3078dda69db.pack
-.git/objects/pack/tmp_pack_LmX80k
-.git/objects/pack/tmp_pack_i4AZfl
-encoding/encoded_output_legal/aggregated_doc_embeddings_fixed.pth
-encoding/encoded_output_legal/by_court/TribunalCourt_embeddings.pth
-encoding/encoded_output_legal/by_court/HighCourt_embeddings.pth
-encoding/encoded_output_legal/by_court/SupremeCourt_embeddings.pth
-encoding/encoded_output_legal/by_court/DailyOrderCourt_embeddings.pth
-encoding/encoded_output_legal/by_court/SupremeCourt_embeddings_fixed.pth
-encoding/encoded_output_legal/encoded_chunks_all.pth
-encoding/metadata_augmented_v2_district_daily.pth
-encoding/encoded_output_final/metadata_augmented_district_daily.pth
-encoding/encoded_output_final/final_balanced_by_court/TribunalCourt_embeddings_final.pth
-encoding/encoded_output_final/final_balanced_by_court/HighCourt_embeddings_final.pth
-encoding/encoded_output_final/final_balanced_by_court/DistrictCourt_embeddings_final.pth
-encoding/encoded_output_final/final_balanced_by_court/DailyOrderCourt_embeddings_final.pth
-encoding/encoded_output_final/final_balanced_by_court/SupremeCourt_embeddings_final.pth
-encoding/encoded_output_final/encoded_cases_final_balanced_minority.pth
-encoding/metadata_augmented_v3_district_daily.pth
-encoding/legalbert_finetuned_courts/_resized_auto/model.safetensors
-encoding/legalbert_finetuned_courts/model.safetensors
-Court-MOE/.git/objects/pack/pack-0893139dd9baf76c91eeda45bf071e767cd854a8.pack
-Court-MOE/.git/objects/c2/eb1d769b4b0e88d067288c09b3a2c56c0a077d
-Court-MOE/.git/objects/7b/fabb32818ced31fe7353c81d3bc546631c969c
-Court-MOE/.git/objects/d2/b1317ec6f6abd30eefa24008f907301944432a
-Court-MOE/.git/objects/65/9e712ed60e565c762441ad7cbaa7b02fa61c0c
-Court-MOE/.git/objects/29/ab3320131e846ac64f339f149954840e64517b
-Court-MOE/.git/objects/08/6e968279a6d79a6f9a7e480dcd1199a1ee604c
-Court-MOE/.git/objects/bc/1c8be1be84fbe1be8b85ac8b883ca21d552df4
-Court-MOE/.git/objects/1c/fb7abd8d5ab38281dfab2b644ad3c863e58a4b
+.env
+
+# Data & outputs
+Datasets/
+Cases/
+results/
+model_output/
+
+# Large ML artifacts
+*.pt
+*.pth
+*.safetensors
+
+# Encoded outputs
+encoding/encoded_output_final/
+encoding/encoded_output_legal/
+encoding/legalbert_finetuned_courts/
+
+# Tokenized data
+tokenization/Tokenized_output_final/
+
+# OS
+.DS_Store
